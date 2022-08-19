@@ -270,6 +270,9 @@ defaults:
     values:
       layout: "page"
 
+# Include this directory
+include: ["_pages"]
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
