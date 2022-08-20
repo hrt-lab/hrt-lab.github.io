@@ -1,13 +1,10 @@
 ---
 layout: page
-title:
+title: Research
 permalink: /research/
 author_profile: true
 analytics: true
 ---
-## Research
-
-
 
 ## COAST Robotic Guidewire
 <img align="left" src="https://yashchitalia.github.io/images/coast_banner.gif" alt="Photo" style="width: 800px; border-radius: 1px; padding: 1px 1px 10px 1px"/>
