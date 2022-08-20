@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:
 permalink: /research/
 author_profile: true
