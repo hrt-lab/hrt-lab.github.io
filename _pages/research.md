@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: HeaRT Lab Research
 permalink: /research/
 author_profile: true
 analytics: true
