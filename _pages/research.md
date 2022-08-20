@@ -5,6 +5,9 @@ permalink: /research/
 author_profile: true
 analytics: true
 ---
+## Research
+
+
 
 ## COAST Robotic Guidewire
 <img align="left" src="https://yashchitalia.github.io/images/coast_banner.gif" alt="Photo" style="width: 800px; border-radius: 1px; padding: 1px 1px 10px 1px"/>
@@ -29,8 +32,6 @@ Both joints of the robotic tool are in the same plane, allowing the robot to mak
 The plane of bending can further be changed by a rolling motion capability in the handheld controller (see  CAD to the left). The resulting tool is controlled using a joystick located at the back end of the handheld controller. 
 Thus, the robotic tool and its controller are ergonomic in their design and fully compatible with existing endoscopes used in hydrocephalus cases.
 
-
-
 ### Publications:
 * <b>Y. Chitalia</b>, S. Jeong (co-first author), K. K. Yamamoto, J. J. Chern, and J.P. Desai, 
 “Modeling and Control of a Meso-scaleMulti-Joint Continuum Robot for Pediatric Neurosurgery,” in IEEE Transactions on Robotics, doi: 10.1109/TRO.2020.3031270.
@@ -48,6 +49,8 @@ patent pending</b>, 2019
 ### Media Coverage:
 * [Steerable Robotic Instruments Could Help Pediatric Neurosurgeons](https://rh.gatech.edu/features/think-small#node-10970), <i>Research Horizons</i>, July 2019.
 
+
+
 ## Robotic Guidewire
 <img align="left" src="https://yashchitalia.github.io/images/guidewire_all.gif" alt="Photo" style="width: 350px; border-radius: 1px; padding: 1px 30px 1px 1px"/>
 
@@ -64,6 +67,8 @@ See the papers below for more static models and controls details of the guidewir
 ### Media Coverage:
 * [Desai Secures $2.8 Million Grant to Develop Steerable Robotic Guidewire](https://petitinstitute.gatech.edu/news/desai-secures-28-million-grant-develop-steerable-robotic-guidewire)
 
+
+
 ## Miniature Force Sensor
 <img align="left" src="https://yashchitalia.github.io/images/Force_sensor_design.jpg" alt="Photo" style="width: 800px; border-radius: 1px; padding: 1px 1px 1px 1px"/>
 This work presents a photointerrupter based force sensing mechanism to implement a low-cost, high accuracy, and reliable sensor with a miniaturized design. 
@@ -76,6 +81,8 @@ having 1.08% nonlinearity, 0.83% hysteresis, and 99.58% accuracy.
 The proposed model and sensing mechanisms are experimentally validated.
 ### Publications:
 * S. Jeong, <b>Y. Chitalia</b> and J. P. Desai, “Miniature Force Sensor based on Dual-photointerrupter with High Linearity and Disturbance Compensation,” in IEEE Sensors Journal.
+
+
 
 ## Large Deflection Shape Sensing - Continuum Robots
 <img align="left" src="https://yashchitalia.github.io/images/control_system_website.png" alt="Photo" style="width: 250px; border-radius: 1px; padding: 1px 30px 1px 1px"/>
