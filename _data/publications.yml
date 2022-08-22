@@ -1,8 +1,8 @@
-- title: 
-  authors: 
+- title: Design, modeling and control of a 2-dof robotic guidewire
+  authors: Yash Chitalia, Xuefeng Wang, Jaydev P. Desai
   link:
-    url: 
-  year: 
-  type: 2021  
-  venue: 
-  thumbnail: 
+    url: https://ieeexplore.ieee.org/abstract/document/8462694/
+  year: 2018
+  type: Conference
+  venue: 2018 IEEE International Conference on Robotics and Automation (ICRA)
+  thumbnail: guidewire_orig_2018.gif
