@@ -5,7 +5,7 @@ title: Publications
 css: /assets/css/people.css
 ---
 
-{% assign pubs_by_year = site.data.pubs | group_by: 'year' %} {% for year in
+{% assign pubs_by_year = site.data.publications | group_by: 'year' %} {% for year in
 pubs_by_year %}
 <h3>{{ year.name }}</h3>
 
@@ -21,7 +21,7 @@ assign group_title = 'Other Papers' %} {% endif %}
   <img
     class="grid-child"
     src="{{
-      '/assets/img/pubs/' | append: pub.thumbnail | relative_url }}"
+      '/assets/img/publications/' | append: pub.thumbnail | relative_url }}"
   />
   <div class="grid-child">
     <a href="{{ pub.link.url }}">{{ pub.title }}</a>
