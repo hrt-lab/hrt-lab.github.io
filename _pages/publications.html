@@ -17,12 +17,12 @@ assign group_title = 'Other Papers' %} {% endif %}
 <h4>{{ group_title }}</h4>
 
 {% for pub in type_group.items %}
-<div class="grid-parent" style="align: left; text-align: left;height: 100 px;margin:set_margin">
+<div class="grid-parent">
   <img
     class="grid-child"
     src="{{ '/assets/img/publications/' | append: pub.thumbnail | relative_url }}"
   />
-  <div class="grid-child" style="align: right">
+  <div class="grid-child">
     <a href="{{ pub.link.url }}">{{ pub.title }}</a>
     <br />
     {{ pub.authors }}
