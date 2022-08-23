@@ -23,7 +23,7 @@ assign group_title = 'Other Papers' %} {% endif %}
     class="grid-child"
     src="{{ '/assets/img/publications/' | append: pub.thumbnail | relative_url }}"
   />
-  {% else %} {% for image in site.static_files %} {% assign vr = 'img/pubs/' |
+  {% else %} {% for image in site.static_files %} {% assign vr = 'img/publications/' |
   append: pub.alt | append: '_' %} {% if image.path contains vr %}
   <img class="grid-child" src="{{ site.baseurl }}{{ image.path }}" alt="" />
   {% endif %} {% endfor %} {% endif %}
