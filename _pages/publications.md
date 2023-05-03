@@ -1,3 +1,11 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+author_profile: true
+analytics: true
+---
+
 # Publications
 
 ### 2018
