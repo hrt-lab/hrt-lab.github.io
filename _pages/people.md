@@ -1,9 +1,15 @@
 ---
 layout: page
-title: HeaRT Lab Research
+title: People
 permalink: /people/
 author_profile: true
 analytics: true
 ---
 
-# This is a Test!
+## Faculty
+
+## Ph.D. Sudents
+
+## M.S. Students
+
+## Undergraduate Students
