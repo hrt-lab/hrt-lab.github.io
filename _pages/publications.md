@@ -12,7 +12,7 @@ analytics: true
 #### Conference / Journal Papers
 
 
-<img style="float: left;" src="photos/FBG.gif" alt="FBG" width="100" height="100">
+<img style="float: left;" src="https://hrtlab.github.io/_pages/photos/FBG.gif" alt="FBG" width="100" height="100">
 [Design, modeling and control of a 2-dof robotic guidewire](https://ieeexplore.ieee.org/abstract/document/8462694)
 
 Yash Chitalia, Xuefeng Wang, Jaydev P. Desai<br />
