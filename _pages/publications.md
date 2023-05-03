@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 analytics: true
 ---
-<link rel="stylesheet" href="{{ '/assets/css/beautifuljekyll.css' | relative_url }}">
 
 ### 2018
 #### Conference / Journal Papers
