@@ -1,15 +1,23 @@
 ---
 layout: page
-title: HeaRT Lab Research
+title: Research
 permalink: /research/
 author_profile: true
 analytics: true
 ---
+## Concentric-tube Tendon-actuated Robots
+<img align="left" src="https://yashchitalia.github.io/assets/img/research/concentric-tube-tendon-actuated.gif" alt="Photo" style="width: 800px; border-radius: 1px; padding: 1px 1px 10px 1px"/>
+Concentric-tube robots offer several advantages, including ease of actuation, high dexterity, follow-the-leader motion capabilities among others. But the pre-curved nature of the tubes that make up these robots result in curvature limitations, snapping instabilities, etc.
+On the other hand, tendon-driven robots have variable curvatures, but are limited by a fixed number of joints. Concentric-tube tendon-actuated robots are a new paradigm of actuation in robotic surgical devices that offers unique advantages of variable curvatures and high number of degrees-of-freedom. In collaboration with the Dupont Lab, at Boston Children's Hospital & Harvard Medical School, we're modeling the behavior of these types of robots using the standard Cosserat Model framework. Our work is the first to model the bending, twisting and elongation that these tubes go through when their respective tendons are actuated. 
+
+### Publications:
+* Chitalia, Y., Donder, A., & Dupont, P. (2022). Modeling Telescoping Tendon-Actuated Continuum Robots (No. 8201). EasyChair.
+* Chitalia, Y., Donder, A., & Dupont, P. (2023). Modeling Tendon-actuated Concentric Tube Robots. 2023 IEEE International Symposium on Medical Robotics (ISMR 2023). To Appear.
 
 ## COAST Robotic Guidewire
 <img align="left" src="https://yashchitalia.github.io/images/coast_banner.gif" alt="Photo" style="width: 800px; border-radius: 1px; padding: 1px 1px 10px 1px"/>
 <img align="left" src="https://yashchitalia.github.io/images/coast_single.gif" alt="Photo" style="width: 400px; border-radius: 1px; padding: 1px 30px 1px 1px"/>
-The Co-Axially Aligned STeerable (COAST) guidewire (PATENT PENDING) is the newest version of a robotically steerable guidewire with an outer diameter of 0.4 mm. The guidewire has a single degree-of-freedom, and demonstrates follow-the-leader
+The Co-Axially Aligned STeerable (COAST) guidewire is the newest version of a robotically steerable guidewire with an outer diameter of 0.4 mm. The guidewire has a single degree-of-freedom, and demonstrates follow-the-leader
 motion along with feed-forward motion. The guidewire is able to achieve high curvatures at varying bending lengths. Therefore the guidewire can be used in minimally invasive surgical procedures involving pediatric carotid arteries, 
 peripheral artery disease procedures, or procedures involving navigating around the aortic bifurcation or the aortic arch.
 
