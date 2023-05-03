@@ -6,8 +6,6 @@ author_profile: true
 analytics: true
 ---
 
-# Publications
-
 ### 2018
 #### Conference / Journal Papers
 
