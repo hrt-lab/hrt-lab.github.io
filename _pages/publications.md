@@ -1,3 +1,11 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+author_profile: true
+analytics: true
+---
+
 ### 2018
 #### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
