@@ -26,6 +26,6 @@ analytics: true
   <p style="margin-top:0;margin-bottom:0;">
   [Design and Kinematics Analysis of a Robotic Pediatric Neuroendoscope Tool Body](https://doi.org/10.1109/TMECH.2020.2967748)
   Yash Chitalia, Seokhwan Jeong, Nancy Deaton, Joshua J. Chern, Jaydev P. Desai
-  IEEE/ASME Transactions on Mechatronics
+  IEEE/ASME Transactions on Mechatronics. 2020.
   </p>
 </div>
