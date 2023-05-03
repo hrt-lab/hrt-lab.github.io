@@ -1,7 +1,15 @@
+- name: Yash Chitalia
+  photo: yash_chitalia_homepage.jpg
+  info: 
+  email: 
+  bio: 
+  website: 
+  type: 0
+
 - name: Behnam Moradkhani
   photo: Ben.jpg
   info: Ph.D. Student
   email: behnam.moradkhani@louisville.edu
   bio: Behnam
   website: Behnam
-  type: 0
+  type: 1
