@@ -1,0 +1,14 @@
+figure {
+  display: flex;
+  align-items: flex-start;
+}
+
+figcaption {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  margin-right: 10px;
+  width: 150px;
+}
