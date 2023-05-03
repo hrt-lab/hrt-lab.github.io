@@ -4,7 +4,7 @@
 #### Conference / Journal Papers
 
 
-<img style="float: left;" src="https://github.com/hrtlab/hrtlab.github.io/tree/master/_pages/photos/FBG.gif" alt="FBG" width="100" height="100">
+<img style="float: left;" src="/photos/FBG.gif" alt="FBG" width="100" height="100">
 
 
 
