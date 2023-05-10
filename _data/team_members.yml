@@ -1,3 +1,10 @@
+- name: Behnam Moradkhani
+  photo: Ben.jpg
+  info: Ph.D. Student
+  email: behnam.moradkhani@louisville.edu
+  bio: Behnam is a Ph.D. Student at the University of Louisville. He got his B.Sc. in electrical engineering from the University of Tehran. His research interests are robotics, mechatronics, control, dynamic systems, and AI. In September 2022, he joined HeaRT Lab where he conducts research on surgical robotics.
+  type: 1
+
 - name: Kent K. Yamamoto
   photo: KentYamamoto_Photo_Cropped.jpeg
   info: Ph.D. Student
