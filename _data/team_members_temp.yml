@@ -13,3 +13,11 @@
   bio: Behnam
   website: Behnam
   type: 1
+  
+  
+- name: Kent K. Yamamoto
+  photo: KentYamamoto_Photo_Cropped.jpeg
+  info: Ph.D. Student
+  email: kent.yamamoto@duke.edu
+  bio: Kent is a Mechanical Engineering Ph.D. student at Duke University, advised by Dr. Patrick Codd, M.D. at the Brain Tool Lab. He graduated from the Georgia Institute of Technology with a B.S. in Biomedical Engineering, where he was involved in surgical robotics research at the RoboMed Lab. As an NSF Traineeship in Advancing Surgical Technologies (TAST) Fellow, he conducts translational surgical robotics research for automated laser surgery for tumor resection. His research interests are in the modeling and control of continuum robotics and how to implement medical optics into continuum robotic systems.
+  type: 1
