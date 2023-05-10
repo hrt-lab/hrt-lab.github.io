@@ -22,6 +22,7 @@ analytics: true
   </figcaption>
 </figure>
 
+
 <br>
 ### 2020
 #### Conference / Journal Papers
@@ -36,5 +37,12 @@ analytics: true
   <img align="left" src="https://hrtlab.github.io/_pages/photos/TowardsFBGBasedShapeSensing.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/LRA.2020.2969934" target="_blank">Towards FBG-Based Shape Sensing for Micro-Scale and Meso-Scale Continuum Robots With Large Deflection</a><br>Yash Chitalia, Nancy Joanna Deaton, Seokhwan Jeong, Nahian Rahman, Jaydev P. Desai<br>IEEE robotics and automation letters. 2020.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/controlofa2dofmesoscale.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/TRO.2020.3031270" target="_blank">Modeling and Control of a 2-DoF Meso-Scale Continuum Robotic Tool for Pediatric Neurosurgery</a><br>Yash Chitalia, Seokhwan Jeong, Kent K. Yamamoto, Joshua J. Chern, Jaydev P. Desai<br>IEEE Transactions on Robotics. 2020.
   </figcaption>
 </figure>
