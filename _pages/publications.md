@@ -25,8 +25,9 @@ analytics: true
     <a href="https://doi.org/10.1109/TMECH.2020.2967748" target="_blank">Design and Kinematics Analysis of a Robotic Pediatric Neuroendoscope Tool Body</a><br>Yash Chitalia, Seokhwan Jeong, Nancy Deaton, Joshua J. Chern, Jaydev P. Desai<br>IEEE/ASME Transactions on Mechatronics. 2020.
   </figcaption>
 </figure>
+
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Towards FBG-Based Shape Sensing.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/TowardsFBGBasedShapeSensing.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/LRA.2020.2969934" target="_blank">Towards FBG-Based Shape Sensing for Micro-Scale and Meso-Scale Continuum Robots With Large Deflection</a><br>Yash Chitalia, Nancy Joanna Deaton, Seokhwan Jeong, Nahian Rahman, Jaydev P. Desai<br>IEEE robotics and automation letters. 2020.
   </figcaption>
