@@ -26,6 +26,7 @@ full-width: true
         style="float: left"
       />
 
+      <!--
       {% if member == site.data.team_members.first %}
       <div
         class="text-center clickable-modal-trigger tapo-title"
@@ -38,6 +39,7 @@ full-width: true
         class="text-center clickable-modal-trigger"
         id="modal-trigger-text-{{ forloop.index }}"
       >
+      -->
       {% if member.type != "5-1" and member.type != "5-2" %} <!-- Non Robots-->
         <strong>{{ member.name }}</strong>
       {% else %} <!-- Robots -->
