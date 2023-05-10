@@ -16,9 +16,10 @@ full-width: true
     <h2 class="row-label" id="row-label-3">Undergraduate Students</h2>
     <h2 class="row-label" id="row-label-4">OT Collaborators</h2>
     <h2 class="row-label" id="row-label-5">Robots</h2>
+    -->
     {% for member in site.data.team_members %}
     <div class="member-info my-3 type-{{ member.type }}">
-    -->
+
 
       <img
         class="img-fluid clickable-modal-trigger"
@@ -72,7 +73,8 @@ full-width: true
     <!-- Number of people to be displayed. Used by JavaScript -->
     <div id="modal-control">{{ site.data.team_members.size }}</div>
   </div>
-
+  
+  <!--
   <div id="alumni">
     <h2 class="row-label" id="alumni-label">Alumni</h2>
     {% for alum in site.data.alumni %}
@@ -86,5 +88,6 @@ full-width: true
       <div class="alumni-job grid-child">{{ alum.job }}</div>
     </div>
     {% endfor %}
+  -->
   </div>
 </div>
