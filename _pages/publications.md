@@ -46,3 +46,21 @@ analytics: true
     <a href="https://doi.org/10.1109/TRO.2020.3031270" target="_blank">Modeling and Control of a 2-DoF Meso-Scale Continuum Robotic Tool for Pediatric Neurosurgery</a><br>Yash Chitalia, Seokhwan Jeong, Kent K. Yamamoto, Joshua J. Chern, Jaydev P. Desai<br>IEEE Transactions on Robotics. 2020.
   </figcaption>
 </figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/COAST.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/LRA.2020.3004782" target="_blank">Design, Modeling, and Control of a Coaxially Aligned Steerable (COAST) Guidewire Robot</a><br>Seokhwan Jeong, Yash Chitalia, Jaydev P. Desai<br>IEEE Robotics and Automation Letters. 2020.
+  </figcaption>
+</figure>
+
+
+<br>
+### 2021
+#### Conference / Journal Papers
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Brachytherapy.png" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1007/978-3-030-71151-1_21" target="_blank">Towards a Robotically Steerable System for High Dose Rate Brachytherapy</a><br>Nancy Deaton, Yash Chitalia, Pretesh Patel, Jaydev P. Desai<br>Experimental Robotics: The 17th International Symposium. 2021.
+  </figcaption>
+</figure>
