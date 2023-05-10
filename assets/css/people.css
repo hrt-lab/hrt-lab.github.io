@@ -1,3 +1,26 @@
+/*
+ * Custom CSS for the People page.
+ * 
+ * -------------- PLEASE READ IF YOU WISH TO EDIT THE PAGE LAYOUT --------------
+ * Last edited: 5/9/22
+ * For any questions, please reach out to jk2537@cornell.edu (David Kim, '22)
+ * -----------------------------------------------------------------------------
+ * Currently, the images are fixed into place using CSS Grid. The justification 
+ * behind this (e.g. instead of using Flexbox) is that CSS grid is the best way 
+ * to layout dynamic data from the team members YAML configuration file. Using 
+ * Flexbox does not allow for dynamic reordering of the data (i.e. the order 
+ * impacts the layout and display & could cause potential issues). However, 
+ * using Grid does mean that the code is less automatically scalable.
+ * 
+ * The general summary of how it works:
+ * 1) A "type" identifier (PhD, MS, ...) is injected into each member's div.
+ *    - Faculty = 0, PhD = 1, Masters = 2, Undergrads = 3, Other = 4
+ * 2) Each type has a separate ROW with three columns for three people.
+ * 3) If there are more than 3 people in the row for that type, then there are 
+ *    several remedies:
+ *    - The number of columns can be increased
+ *    - Create additional rows for that type and move some people down (current)
+ */
 
 .full-page {
   width: 1000px;
