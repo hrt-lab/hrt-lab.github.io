@@ -22,12 +22,21 @@ analytics: true
   </figcaption>
 </figure>
 
+<br>
+### 2019
+#### Conference / Journal Papers
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/PediatricNeuroendoscopeTool.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/IROS40897.2019.8968186" target="_blank">Towards the design and development of a pediatric neuroendoscope tool</a><br>Yash Chitalia, Seokhwan Jeong, Ji Bok, Vinh Nguyen, Shreyes Melkote, Joshua J. Chern, Jaydev P. Desai<br>2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2019.
+  </figcaption>
+</figure>
 
 <br>
 ### 2020
 #### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/NeuroendoscopeToolBody.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/TMECH.2020.2967748" target="_blank">Design and Kinematics Analysis of a Robotic Pediatric Neuroendoscope Tool Body</a><br>Yash Chitalia, Seokhwan Jeong, Nancy Deaton, Joshua J. Chern, Jaydev P. Desai<br>IEEE/ASME Transactions on Mechatronics. 2020.
   </figcaption>
@@ -54,7 +63,6 @@ analytics: true
   </figcaption>
 </figure>
 
-
 <br>
 ### 2021
 #### Conference / Journal Papers
@@ -64,3 +72,4 @@ analytics: true
     <a href="https://doi.org/10.1007/978-3-030-71151-1_21" target="_blank">Towards a Robotically Steerable System for High Dose Rate Brachytherapy</a><br>Nancy Deaton, Yash Chitalia, Pretesh Patel, Jaydev P. Desai<br>Experimental Robotics: The 17th International Symposium. 2021.
   </figcaption>
 </figure>
+
