@@ -1,9 +1,9 @@
 - name: Yash Chitalia
-  photo: yash_chitalia_homepage.jpg
-  info: 
-  email: 
-  bio: 
-  website: 
+  photo: Yash_Chitalia.jpg
+  info: Assistant Professor, Mechanical Engineering
+  email: yash.chitalia@louisville.edu
+  bio: Yash is the Director of the HeaRT Lab. He works on the design, modeling, and control of miniature surgical robots. He comes to Louisville from a research fellowship at Boston Children’s Hospital and Harvard Medical School and a Ph.D. from the RoboMed laboratory at Georgia Tech.
+  website: yashchitalia.github.io
   type: 0
 
 - name: Behnam Moradkhani
@@ -14,6 +14,13 @@
   website: Behnam
   type: 1
   
+- name: Pejman Kheradmand
+  photo: 
+  info: Ph.D. Student
+  email: pejman.kheradmand@louisville.edu
+  bio: Pejman is a researcher specializing in the field of robotic surgery technology. With a background in Mechanical Engineering, he holds a Bachelor's degree from Razi University and a Master's degree from the University of Tehran. His expertise lies in the development of robotic surgical systems, with a particular focus on software development, GUI design, and mechatronic integration, including hardware in the loop. His work aims to advance the field of robotic surgery by integrating robotics to improve precision and patient outcomes.
+  website: https://sites.google.com/view/pejmankheradmand/home 
+  type: 1
   
 - name: Kent K. Yamamoto
   photo: KentYamamoto_Photo_Cropped.jpeg
