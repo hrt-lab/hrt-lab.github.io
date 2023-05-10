@@ -11,12 +11,15 @@ full-width: true
   <div class="grid-container">
     <h2 class="row-label" id="row-label-0">Faculty</h2>
     <h2 class="row-label" id="row-label-1">Ph.D. Students</h2>
+    <!--
     <h2 class="row-label" id="row-label-2">M.S. & M.Eng. Students</h2>
     <h2 class="row-label" id="row-label-3">Undergraduate Students</h2>
     <h2 class="row-label" id="row-label-4">OT Collaborators</h2>
     <h2 class="row-label" id="row-label-5">Robots</h2>
+    -->
     {% for member in site.data.team_members %}
     <div class="member-info my-3 type-{{ member.type }}">
+
 
       <img
         class="img-fluid clickable-modal-trigger"
@@ -26,11 +29,18 @@ full-width: true
         style="float: left"
       />
 
+      {% if member == 0 %}
+      <div
+        class="text-center clickable-modal-trigger tapo-title"
+        id="modal-trigger-text-{{ forloop.index }}"
+      >
+        <strong>{{ member.name }}</strong>
+      </div>
+      {% else %}
       <div
         class="text-center clickable-modal-trigger"
         id="modal-trigger-text-{{ forloop.index }}"
       >
-      
       {% if member.type != "5-1" and member.type != "5-2" %} <!-- Non Robots-->
         <strong>{{ member.name }}</strong>
       {% else %} <!-- Robots -->
@@ -63,7 +73,8 @@ full-width: true
     <!-- Number of people to be displayed. Used by JavaScript -->
     <div id="modal-control">{{ site.data.team_members.size }}</div>
   </div>
-
+  
+  <!--
   <div id="alumni">
     <h2 class="row-label" id="alumni-label">Alumni</h2>
     {% for alum in site.data.alumni %}
@@ -77,5 +88,6 @@ full-width: true
       <div class="alumni-job grid-child">{{ alum.job }}</div>
     </div>
     {% endfor %}
+  -->
   </div>
 </div>

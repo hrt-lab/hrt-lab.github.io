@@ -9,7 +9,7 @@ analytics: true
 ### 2018
 #### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/FBG.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/2dofroboticguidewire.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/ICRA.2018.8462694" target="_blank">Design, modeling and control of a 2-dof robotic guidewire</a><br>Yash Chitalia, Xuefeng Wang, Jaydev P. Desai<br>2018 IEEE International Conference on Robotics and Automation (ICRA). 2018.
   </figcaption>
@@ -22,12 +22,21 @@ analytics: true
   </figcaption>
 </figure>
 
+<br>
+### 2019
+#### Conference / Journal Papers
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/PediatricNeuroendoscopeTool.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/IROS40897.2019.8968186" target="_blank">Towards the design and development of a pediatric neuroendoscope tool</a><br>Yash Chitalia, Seokhwan Jeong, Ji Bok, Vinh Nguyen, Shreyes Melkote, Joshua J. Chern, Jaydev P. Desai<br>2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2019.
+  </figcaption>
+</figure>
 
 <br>
 ### 2020
 #### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/NeuroendoscopeToolBody.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/TMECH.2020.2967748" target="_blank">Design and Kinematics Analysis of a Robotic Pediatric Neuroendoscope Tool Body</a><br>Yash Chitalia, Seokhwan Jeong, Nancy Deaton, Joshua J. Chern, Jaydev P. Desai<br>IEEE/ASME Transactions on Mechatronics. 2020.
   </figcaption>
@@ -53,7 +62,6 @@ analytics: true
     <a href="https://doi.org/10.1109/LRA.2020.3004782" target="_blank">Design, Modeling, and Control of a Coaxially Aligned Steerable (COAST) Guidewire Robot</a><br>Seokhwan Jeong, Yash Chitalia, Jaydev P. Desai<br>IEEE Robotics and Automation Letters. 2020.
   </figcaption>
 </figure>
-
 
 <br>
 ### 2021
