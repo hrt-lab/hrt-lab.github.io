@@ -3,13 +3,12 @@ layout: page
 title: Publications
 permalink: /publications/
 author_profile: true
-css: /assets/css/people.css
 full-width: true
 analytics: true
 ---
 ### 2021
 #### Conference / Journal Papers
-<figure style="display:flex;align-items:flex-start; margin-left: 50px;">
+<figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Brachytherapy.png" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1007/978-3-030-71151-1_21" target="_blank">Towards a Robotically Steerable System for High Dose Rate Brachytherapy</a><br>Nancy Deaton, Yash Chitalia, Pretesh Patel, Jaydev P. Desai<br>Experimental Robotics: The 17th International Symposium. 2021.
