@@ -3,7 +3,6 @@ layout: page
 title: Publications
 permalink: /publications/
 author_profile: true
-full-width: true
 analytics: true
 ---
 ### 2021
