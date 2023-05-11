@@ -78,5 +78,3 @@ analytics: true
     <a href="https://doi.org/10.1109/IROS.2018.8593545" target="_blank">3D Human Pose Estimation on a Configurable Bed from a Pressure Image</a><br>Henry M. Clever, Ariel Kapusta, Daehyung Park, Zackory Erickson, Yash Chitalia, Charles C. Kemp<br>2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2018.
   </figcaption>
 </figure>
-
-22
