@@ -4,6 +4,7 @@ title: Publications
 permalink: /publications/
 author_profile: true
 analytics: true
+css: /assets/css/people.css
 full-width: true
 ---
 ### 2021
