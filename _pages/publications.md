@@ -22,9 +22,9 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Modeling Telescoping Tendon-Actuated.png" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Non-Surgical Removal of Partially Absorbable Bionic Implants.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
-    <a href="https://doi.org/10.1109/TMRB.2022.3155291" target="_blank">Kinematic Modeling and Jacobian-Based Control of the COAST Guidewire Robot</a><br>Non-Surgical Removal of Partially Absorbable Bionic Implants<br>IEEE Transactions on Medical Robotics and Bionics. 2022.
+    <a href="https://doi.org/10.1109/TMRB.2022.3155291" target="_blank">Non-Surgical Removal of Partially Absorbable Bionic Implants</a><br>Viola Del Bono, Joseph Peine, Martina Finocchiaro, Karl D Price, Margherita Mencattelli, Yash Chitalia, Victoria H Ko, Lumeng Yu, Jordan Secor, Amy Pan, Zurab Machaidze, Mark Puder, Alessio Artoni, Pierre E Dupont<br>IEEE Transactions on Medical Robotics and Bionics. 2022.
   </figcaption>
 </figure>
 
