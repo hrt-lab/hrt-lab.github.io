@@ -22,6 +22,13 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Steerable and flexible robotic endoscopic tools for minimally invasive procedures.png" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://patents.google.com/patent/US20220151473A1/en" target="_blank">Steerable and flexible robotic endoscopic tools for minimally invasive procedures</a><br>JP Desai, <em><strong>Y Chitalia</strong></em>, S Jeong, JJ Chern<br>US Patent App. 17/433,165.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Non-Surgical Removal of Partially Absorbable Bionic Implants.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/TMRB.2022.3155291" target="_blank">Non-Surgical Removal of Partially Absorbable Bionic Implants</a><br>V Del Bono, J Peine, M Finocchiaro, KD Price, M Mencattelli, <em><strong>Y Chitalia</strong></em>, VH Ko, L Yu, J Secor, A Pan, Z Machaidze, M Puder, A Artoni, P Dupont<br>IEEE Transactions on Medical Robotics and Bionics. 2022.
@@ -31,6 +38,13 @@ analytics: true
 <br>
 ### 2021
 #### Conference / Journal Papers
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Systems and Methods for Steering Guidewires.png" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://patents.google.com/patent/US20210128888A1/en" target="_blank">Systems and Methods for Steering Guidewires</a><br>JP Desai, <em><strong>Y Chitalia</strong></em> <br>US Patent App. 16/491,680.
+  </figcaption>
+</figure>
+
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Brachytherapy.png" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
