@@ -10,7 +10,7 @@ analytics: true
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Jacobian-Based Control of the COAST.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
-    <a href="https://doi.org/10.1109/TMRB.2022.3216026" target="_blank">Kinematic Modeling and Jacobian-Based Control of the COAST Guidewire Robot</a><br>Yash Chitalia, Abdulhamit Donder, Pierre Dupont<br>IEEE Transactions on Medical Robotics and Bionics. 2022.
+    <a href="https://doi.org/10.1109/TMRB.2022.3216026" target="_blank">Kinematic Modeling and Jacobian-Based Control of the COAST Guidewire Robot</a><br>Achraj Sarma, Timothy A Brumfiel, Yash Chitalia, Jaydev P Desai<br>IEEE Transactions on Medical Robotics and Bionics. 2022.
   </figcaption>
 </figure>
 
