@@ -70,7 +70,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/COAST.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Design, Modeling, and Control of a Coaxially Aligned Steerable (COAST) Guidewire Robot.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/LRA.2020.3004782" target="_blank">Design, Modeling, and Control of a Coaxially Aligned Steerable (COAST) Guidewire Robot</a><br>S Jeong, <em><strong>Y Chitalia</strong></em>, JP Desai<br>IEEE Robotics and Automation Letters. 2020.
   </figcaption>
