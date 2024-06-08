@@ -72,7 +72,7 @@ analytics: true
     </a><br>
     A Zemmar, 
     J Neimat, 
-    <em><strong>Y Chitalia,</strong></em> 
+    <em><strong>Y Chitalia</strong></em> 
     <br> Neuromodulation: Technology at the Neural Interface. 2023.
   </figcaption>
 </figure>
