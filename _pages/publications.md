@@ -6,7 +6,6 @@ author_profile: true
 analytics: true
 ---
 ### 2024
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/TAMS.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -81,7 +80,6 @@ analytics: true
 
 <br>
 ### 2021
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Systems and Methods for Steering Guidewires.png" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -98,7 +96,6 @@ analytics: true
 
 <br>
 ### 2020
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Towards the Development of an Ultrasound-Guided Robotically.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -150,7 +147,6 @@ analytics: true
 
 <br>
 ### 2019
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/PediatricNeuroendoscopeTool.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -167,7 +163,6 @@ analytics: true
 
 <br>
 ### 2018
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/3DHumanPose.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -184,7 +179,6 @@ analytics: true
 
 <br>
 ### 2016
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Data-driven thermal recognition of contact with people and objects.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -216,7 +210,6 @@ analytics: true
 
 <br>
 ### 2014
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/A Revisit-based Mixed-Initiative Nested.png" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -226,7 +219,6 @@ analytics: true
 
 <br>
 ### 2013
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Prioritization schemes for reference and command governors.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
