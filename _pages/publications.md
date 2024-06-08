@@ -13,6 +13,7 @@ analytics: true
     <a href="https://doi.org/10.1109/LRA.2024.3405412" target="_blank">Towards a Tendon-Assisted Magnetically Steered (TAMS) Robotic Stylet for Brachytherapy</a><br><em><strong>P Kheradmand</strong></em>, <em><strong>B Moradkhani</strong></em>, <em><strong>H Jella</strong></em>, K Sowards, SR Silva, <em><strong>Y Chitalia</strong></em><br>IEEE Robotics and Automation Letters. 2024.
   </figcaption>
 </figure>
+
 <br>
 ### 2022
 #### Conference / Journal Papers
