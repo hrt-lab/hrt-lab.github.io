@@ -5,6 +5,15 @@ permalink: /publications/
 author_profile: true
 analytics: true
 ---
+### 2024
+#### Conference / Journal Papers
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/TAMS.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/LRA.2024.3405412" target="_blank">Towards a Tendon-Assisted Magnetically Steered (TAMS) Robotic Stylet for Brachytherapy</a><br><em><strong>P Kheradmand</strong></em>, <em><strong>B Moradkhani</strong></em>, <em><strong>H Jella</strong></em>, K Sowards, SR Silva, <em><strong>Y Chitalia</strong></em><br>IEEE Robotics and Automation Letters. 2024.
+  </figcaption>
+</figure>
+<br>
 ### 2022
 #### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
