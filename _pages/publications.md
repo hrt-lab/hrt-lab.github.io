@@ -49,6 +49,101 @@ analytics: true
 </figure>
 
 <br>
+### 2023
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/correction.png" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/LRA.2023.3338783" target="_blank">Corrections to “Model-Based Design of the COAST Guidewire Robot for Large Deflection”
+    </a><br>
+    <em><strong>Y Chitalia,</strong></em> 
+    A Sarma, 
+    TA Brumfiel, 
+    NJ Deaton, 
+    M Sheft, 
+    JP Desai
+    <br> IEEE Robotics and Automation Letters. 2023.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1016/j.neurom.2023.10.108" target="_blank">EP100/# 119 CURVED TRAJECTORIES IN STEREOTACTIC NEUROSURGERY: EPOSTER VIEWING: AS13-NON-AND LESS-INVASIVE BRAIN STIMULATION
+    </a><br>
+    A Zemmar, 
+    J Neimat, 
+    <em><strong>Y Chitalia,</strong></em> 
+    <br> Neuromodulation: Technology at the Neural Interface. 2023.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/LRA.2023.3321548" target="_blank">Corrections to “Design, Modeling, and Control of a Coaxially Aligned Steerable (COAST) Guidewire Robot”
+    </a><br>
+    S Jeong, 
+    <em><strong>Y Chitalia,</strong></em> 
+    JP Desai
+    <br> IEEE Robotics and Automation Letters. 2023.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/IROS55552.2023.10341686" target="_blank">Hybrid Tendon and Ball Chain Continuum Robots for Enhanced Dexterity in Medical Interventions
+    </a><br>
+    G Pittiglio, M Mencattelli, A Donder, 
+    <em><strong>Y Chitalia,</strong></em> 
+    PE Dupont
+    <br> 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2023.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1126/scirobotics.adg6042.10341686" target="_blank">Using robotics to move a neurosurgeon’s hands to the tip of their endoscope
+    </a><br>
+    K Price, J Peine, M Mencattelli, 
+    <em><strong>Y Chitalia,</strong></em> 
+    D Pu, T Looi, S Stone, J Drake, PE Dupont
+    <br> Science Robotics. 2023.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/LRA.2023.3286125" target="_blank">Model-based design of the COAST guidewire robot for large deflection
+    </a><br>
+    <em><strong>Y Chitalia,</strong></em> A Sarma, TA Brumfiel, NJ Deaton, M Sheft, JP Desai
+    <br> IEEE Robotics and Automation Letters. 2023.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10895540/" target="_blank">Workspace Characterization for Hybrid Tendon and Ball Chain Continuum Robots
+    </a><br>
+    G Pittiglio, M Mencattelli, A Donder, <em><strong>Y Chitalia,</strong></em> PE Dupont
+    <br> The Hamlyn Symposium on Medical Robotics: proceedings. 2023.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.1109/ISMR57123.2023.10130176" target="_blank">Modeling Tendon-actuated Concentric Tube Robots
+    </a><br>
+    <em><strong>Y Chitalia,</strong></em> A Donder, PE Dupont
+    <br> T2023 International Symposium on Medical Robotics (ISMR). 2023.
+  </figcaption>
+</figure>
+
+<br>
 ### 2022
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Jacobian-Based Control of the COAST.gif" alt="photo" style="margin-right: 10px; width: 150px;">
