@@ -14,13 +14,6 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/UsingNeuralNetworks.png" alt="photo" style="margin-right: 10px; width: 150px;">
-  <figcaption style="margin-top:0;margin-bottom:0;">
-    <a href="https://doi.org/10.48550/arXiv.2404.07168" target="_blank">Using Neural Networks to Model Hysteretic Kinematics in Tendon-Actuated Continuum Robots</a><br>Y Wang, M McCandless, A Donder, G Pittiglio, <em><strong>B Moradkhani</strong></em>, <em><strong>Y Chitalia</strong></em>, PE Dupont<br>2024 International Symposium on Medical Robotics (ISMR). 2024.
-  </figcaption>
-</figure>
-
-<figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/FBG.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2405.20509" target="_blank">An FBG-based Stiffness Estimation Sensor for In-vivo Diagnostics</a><br>
@@ -45,6 +38,13 @@ analytics: true
     A Zemmar,
     <em><strong>Y Chitalia</strong></em>
     <br>IEEE/ASME Transactions on Mechatronics. 2024.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/UsingNeuralNetworks.png" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.48550/arXiv.2404.07168" target="_blank">Using Neural Networks to Model Hysteretic Kinematics in Tendon-Actuated Continuum Robots</a><br>Y Wang, M McCandless, A Donder, G Pittiglio, <em><strong>B Moradkhani</strong></em>, <em><strong>Y Chitalia</strong></em>, PE Dupont<br>2024 International Symposium on Medical Robotics (ISMR). 2024.
   </figcaption>
 </figure>
 
