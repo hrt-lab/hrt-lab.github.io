@@ -104,7 +104,7 @@ analytics: true
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
-    <a href="https://doi.org/10.1126/scirobotics.adg6042.10341686" target="_blank">Using robotics to move a neurosurgeon’s hands to the tip of their endoscope
+    <a href="https://doi.org/10.1126/scirobotics.adg6042" target="_blank">Using robotics to move a neurosurgeon’s hands to the tip of their endoscope
     </a><br>
     K Price, J Peine, M Mencattelli, 
     <em><strong>Y Chitalia,</strong></em> 
