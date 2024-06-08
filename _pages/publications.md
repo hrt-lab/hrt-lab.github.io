@@ -51,7 +51,6 @@ analytics: true
 
 <br>
 ### 2022
-#### Conference / Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Jacobian-Based Control of the COAST.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
