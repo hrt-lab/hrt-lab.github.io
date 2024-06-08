@@ -139,7 +139,7 @@ analytics: true
     <a href="https://doi.org/10.1109/ISMR57123.2023.10130176" target="_blank">Modeling Tendon-actuated Concentric Tube Robots
     </a><br>
     <em><strong>Y Chitalia,</strong></em> A Donder, PE Dupont
-    <br> T2023 International Symposium on Medical Robotics (ISMR). 2023.
+    <br> 2023 International Symposium on Medical Robotics (ISMR). 2023.
   </figcaption>
 </figure>
 
