@@ -90,7 +90,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/TendonandBallChain.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/IROS55552.2023.10341686" target="_blank">Hybrid Tendon and Ball Chain Continuum Robots for Enhanced Dexterity in Medical Interventions
     </a><br>
@@ -102,7 +102,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/moveneurosurgeonhands.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1126/scirobotics.adg6042" target="_blank">Using robotics to move a neurosurgeon’s hands to the tip of their endoscope
     </a><br>
@@ -124,7 +124,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/WorkspaceCharacterizationforHybrid.png" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10895540/" target="_blank">Workspace Characterization for Hybrid Tendon and Ball Chain Continuum Robots
     </a><br>
@@ -134,7 +134,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/TendonactuatedConcentricTubeRobots.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/ISMR57123.2023.10130176" target="_blank">Modeling Tendon-actuated Concentric Tube Robots
     </a><br>
