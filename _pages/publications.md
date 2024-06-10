@@ -51,21 +51,6 @@ analytics: true
 <br>
 ### 2023
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/correction.png" alt="photo" style="margin-right: 10px; width: 150px;">
-  <figcaption style="margin-top:0;margin-bottom:0;">
-    <a href="https://doi.org/10.1109/LRA.2023.3338783" target="_blank">Corrections to “Model-Based Design of the COAST Guidewire Robot for Large Deflection”
-    </a><br>
-    <em><strong>Y Chitalia,</strong></em> 
-    A Sarma, 
-    TA Brumfiel, 
-    NJ Deaton, 
-    M Sheft, 
-    JP Desai
-    <br> IEEE Robotics and Automation Letters. 2023.
-  </figcaption>
-</figure>
-
-<figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1016/j.neurom.2023.10.108" target="_blank">EP100/# 119 CURVED TRAJECTORIES IN STEREOTACTIC NEUROSURGERY: EPOSTER VIEWING: AS13-NON-AND LESS-INVASIVE BRAIN STIMULATION
@@ -74,18 +59,6 @@ analytics: true
     J Neimat, 
     <em><strong>Y Chitalia</strong></em> 
     <br> Neuromodulation: Technology at the Neural Interface. 2023.
-  </figcaption>
-</figure>
-
-<figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
-  <figcaption style="margin-top:0;margin-bottom:0;">
-    <a href="https://doi.org/10.1109/LRA.2023.3321548" target="_blank">Corrections to “Design, Modeling, and Control of a Coaxially Aligned Steerable (COAST) Guidewire Robot”
-    </a><br>
-    S Jeong, 
-    <em><strong>Y Chitalia,</strong></em> 
-    JP Desai
-    <br> IEEE Robotics and Automation Letters. 2023.
   </figcaption>
 </figure>
 
