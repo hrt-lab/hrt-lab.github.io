@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 analytics: true
 ---
-### 2024
+## 2024
 #### Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/TAMS.gif" alt="photo" style="margin-right: 10px; width: 150px;">
@@ -67,7 +67,7 @@ analytics: true
 
 <br>
 
-### 2023
+## 2023
 #### Journal Papers
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
@@ -138,7 +138,7 @@ analytics: true
 
 <br>
 
-### 2022
+## 2022
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Jacobian-Based Control of the COAST.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -169,7 +169,7 @@ analytics: true
 
 <br>
 
-### 2021
+## 2021
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Systems and Methods for Steering Guidewires.png" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -186,7 +186,7 @@ analytics: true
 
 <br>
 
-### 2020
+## 2020
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Towards the Development of an Ultrasound-Guided Robotically.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -238,7 +238,7 @@ analytics: true
 
 <br>
 
-### 2019
+## 2019
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/PediatricNeuroendoscopeTool.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -255,7 +255,7 @@ analytics: true
 
 <br>
 
-### 2018
+## 2018
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/3DHumanPose.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -272,7 +272,7 @@ analytics: true
 
 <br>
 
-### 2016
+## 2016
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Data-driven thermal recognition of contact with people and objects.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -304,7 +304,7 @@ analytics: true
 
 <br>
 
-### 2014
+## 2014
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/A Revisit-based Mixed-Initiative Nested.png" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
@@ -314,7 +314,7 @@ analytics: true
 
 <br>
 
-### 2013
+## 2013
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/Prioritization schemes for reference and command governors.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
