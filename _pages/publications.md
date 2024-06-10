@@ -51,6 +51,19 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/TAG_FK.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.48550/arXiv.2406.03605" target="_blank">Towards the Development of a Tendon-Actuated Galvanometer for Endoscopic Surgical Laser Scanning</a><br>
+    <em><strong>KK Yamamoto,</strong></em> 
+     TJ Zachem,
+    <em><strong>B Moradkhani,</strong></em> 
+    <em><strong>Y Chitalia,</strong></em>
+    PJ Codd
+    <br>2024 International Symposium on Medical Robotics (ISMR). 2024.
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/UsingNeuralNetworks.png" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2404.07168" target="_blank">Using Neural Networks to Model Hysteretic Kinematics in Tendon-Actuated Continuum Robots</a><br>
