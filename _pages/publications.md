@@ -36,7 +36,7 @@ analytics: true
 
 #### Conference Papers
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/FBG.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/FBG_Project.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2405.20509" target="_blank">An FBG-based Stiffness Estimation Sensor for In-vivo Diagnostics</a><br>
     <em><strong>B Moradkhani,</strong></em> 
