@@ -64,7 +64,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/UsingNeuralNetworks.png" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/Demo_Outer_Tube.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2404.07168" target="_blank">Using Neural Networks to Model Hysteretic Kinematics in Tendon-Actuated Continuum Robots</a><br>
     Y Wang, 
