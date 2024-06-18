@@ -3,3 +3,9 @@
   link_text: "Link1"
   ytid: "hRPKpI03OaU"
   description: "NA"
+
+- title: "Title2"
+  link: "https://hrtlab.github.io/"
+  link_text: "Link2"
+  ytid: "hRPKpI03OaU"
+  description: "NA"
