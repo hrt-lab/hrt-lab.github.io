@@ -4,7 +4,6 @@ title: Publications
 permalink: /publications/
 author_profile: true
 analytics: true
-full-width: true
 ---
 ## 2024
 #### Journal Papers
