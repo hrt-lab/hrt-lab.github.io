@@ -22,7 +22,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrtlab.github.io/_pages/photos/ExoNav.png" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/ExoNav.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.1109/TMECH.2024.3401139" target="_blank">ExoNav: A Novel Robotic Steering and Latching Mechanism for Spinal Cord Stimulation Electrodes</a><br>
     <em><strong>H Jella,</strong></em> 
