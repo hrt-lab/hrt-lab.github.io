@@ -1,0 +1,60 @@
+---
+permalink: /research/
+layout: page
+title: Research
+css: /assets/css/research.css
+js: /assets/js/research.js
+full-width: true
+---
+
+<div class="row justify-content-center last-row">
+  {% for project in site.data.research %}
+  <div class="col-md-4">
+    <div class="project-wrapper text-center">
+      <h2 class="project-title {% unless project.link %}no-link-space{% endunless %}">
+        {{ project.title }}
+      </h2>
+
+      {% if project.link %}
+      {% assign link_text = project.link_text | default: "Project Website" %}
+      <a href="{{ project.link }}" class="project-website-link" target="_blank" rel="noopener noreferrer">{{ link_text }}</a>
+      {% endif %}
+      {% if project.link_2 %}
+      {% assign link_2_text = project.link_2_text | default: "Project Website" %}
+      | <a href="{{ project.link_2 }}" class="project-website-link" target="_blank" rel="noopener noreferrer">{{ link_2_text }}</a>
+      {% endif %}
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/{{ project.ytid }}"
+          title="{{ project.title }}"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<hr style="width: 100%; border: 1px solid #ccc; margin-top: 20px; margin-bottom: 20px;">
+
+<h2 class="text-center">Other Featured Videos</h2>
+
+<p align="center">
+  <iframe
+    width="640"
+    height="360"
+    src="https://www.youtube.com/embed/f-NboRkoTDs"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</p>
+
+<div id="mainVideoData" style="display: none;">
+  {% for project in site.data.research %}
+  {{project.ytid}}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+</div>
+
+<div id="featuredVideosContainer" class="row row-cols-4"></div>
