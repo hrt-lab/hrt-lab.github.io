@@ -4,7 +4,6 @@ title: Research
 permalink: /research/
 author_profile: true
 analytics: true
-full-width: true
 ---
 ## Concentric-tube Tendon-actuated Robots
 <img align="left" src="https://hrtlab.github.io/assets/img/research/concentric-tube-tendon-actuated.gif" alt="Photo" style="width: 800px; border-radius: 1px; padding: 1px 1px 10px 1px"/>
