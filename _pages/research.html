@@ -40,10 +40,7 @@ full-width: true
 
 
 <!--
-
-
 <h2 class="text-center">Other Featured Videos</h2>
-
 <p align="center">
   <iframe
     width="640"
@@ -54,8 +51,8 @@ full-width: true
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
 </p>
-
 -->
+
 <div id="mainVideoData" style="display: none;">
   {% for project in site.data.research %}
   {{project.ytid}}{% unless forloop.last %},{% endunless %}
