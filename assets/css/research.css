@@ -1,0 +1,172 @@
+.project-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+#featuredVideosContainer {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#featuredVideosContainer .col-md-3 {
+  flex: 1 0 calc(25% - 1rem);
+  max-width: calc(25% - 1rem);
+  box-sizing: border-box;
+}
+
+@media (max-width: 765px) {
+  #featuredVideosContainer .col-md-3 {
+    flex: 1 0 calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+  }
+}
+
+.project-website-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.container-md,
+.container-fluid {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+@media (max-width: 1410px) {
+
+  .container-md,
+  .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .project-title {
+    font-size: 19px;
+  }
+
+  .project-website-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1225px) {
+
+  .container-md,
+  .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .project-title {
+    font-size: 16px;
+  }
+
+  .project-website-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .container-md,
+  .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .project-title {
+    font-size: 14px;
+  }
+
+  .project-website-link {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 765px) {
+
+  .container-md,
+  .container-fluid {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .project-title {
+    font-size: 22px;
+  }
+
+  .project-website-link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .container-md,
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .project-title {
+    font-size: 21px;
+  }
+
+  .project-website-link {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .container-md,
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-website-link {
+    font-size: 16px;
+  }
+}
+
+.row.no-gutters {
+  margin-right: -7.5px;
+  margin-left: -7.5px;
+}
+
+.project-wrapper {
+  padding: 10px;
+}
+
+.custom-video-size {
+  height: 400px;
+}
+
+.col-md-4 {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.no-link-space {
+  margin-bottom: 15;
+}
+
+.last-row {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+
+.last-row .col-md-4 {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
