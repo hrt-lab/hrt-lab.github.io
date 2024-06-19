@@ -4,13 +4,6 @@
   ytid: ""
   video_url: "https://hrtlab.github.io/assets/img/research/ZoomTAMS.mp4"
   description: "NA"
-
-- title: "Concentric-tube Tendon-actuated Robots"
-  link: "https://hrtlab.github.io/"
-  link_text: "Project Website"
-  ytid: ""
-  video_url: "https://hrtlab.github.io/assets/img/research/concentric-tube-tendon-actuated.gif"
-  description: "NA"
   
 - title: "ExoNav"
   link: "https://hrtlab.github.io/"
@@ -18,7 +11,14 @@
   ytid: "hRPKpI03OaU"
   video_url: ""
   description: "NA"
-
+  
+- title: "Concentric-tube Tendon-actuated Robots"
+  link: "https://hrtlab.github.io/"
+  link_text: "Project Website"
+  ytid: ""
+  video_url: "https://hrtlab.github.io/assets/img/research/concentric-tube-tendon-actuated.gif"
+  description: "NA"
+  
 - title: "TAG"
   link: "https://hrtlab.github.io/"
   link_text: "Project Website"
