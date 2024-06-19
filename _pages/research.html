@@ -25,11 +25,26 @@ full-width: true
       {% endif %}
 
       <div class="embed-responsive embed-responsive-16by9">
+        {% if project.ytid %}
         <iframe
           class="embed-responsive-item"
           src="https://www.youtube.com/embed/{{ project.ytid }}"
           title="{{ project.title }}"
           allowfullscreen></iframe>
+        {% elsif project.video_url %}
+          {% if project.video_url contains "vimeo.com" %}
+          <iframe
+            class="embed-responsive-item"
+            src="https://player.vimeo.com/video/{{ project.video_url | split: '/' | last }}"
+            title="{{ project.title }}"
+            allowfullscreen></iframe>
+          {% else %}
+          <video class="embed-responsive-item" controls>
+            <source src="{{ project.video_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          {% endif %}
+        {% endif %}
       </div>
     </div>
   </div>
