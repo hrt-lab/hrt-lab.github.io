@@ -29,7 +29,7 @@ full-width: true
         <!-- Embed YouTube video -->
         <iframe
           class="embed-responsive-item"
-          src="https://www.youtube.com/embed/{{ project.ytid }}"
+          src="https://www.youtube.com/embed/{{ project.ytid }}?playlist={{ project.ytid }}&loop=1"
           title="{{ project.title }}"
           allowfullscreen></iframe>
         {% elsif project.video_url %}
