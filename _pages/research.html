@@ -25,7 +25,7 @@ full-width: true
       {% endif %}
 
       <div class="embed-responsive embed-responsive-16by9">
-        {% if project.ytid %}
+        {% if project.ytid and project.ytid != "" %}
         <!-- Embed YouTube video -->
         <iframe
           class="embed-responsive-item"
