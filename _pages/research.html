@@ -35,7 +35,7 @@ full-width: true
         {% elsif project.video_url %}
           {% if project.video_url contains ".mp4" %}
           <!-- Embed generic video URL -->
-          <video class="embed-responsive-item" controls>
+          <video class="embed-responsive-item" controls loop>
             <source src="{{ project.video_url }}" type="video/mp4">
             Your browser does not support the video tag.
           </video>
