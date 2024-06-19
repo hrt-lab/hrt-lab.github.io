@@ -1,3 +1,4 @@
+<!-- 
 ---
 layout: page
 title: Research
@@ -5,7 +6,7 @@ permalink: /research/
 author_profile: true
 analytics: true
 ---
-
+-->
 ## Concentric-tube Tendon-actuated Robots
 <img align="left" src="https://hrtlab.github.io/assets/img/research/concentric-tube-tendon-actuated.gif" alt="Photo" style="width: 800px; border-radius: 1px; padding: 1px 1px 10px 1px"/>
 Concentric-tube robots offer several advantages, including ease of actuation, high dexterity, follow-the-leader motion capabilities among others. But the pre-curved nature of the tubes that make up these robots result in curvature limitations, snapping instabilities, etc.
