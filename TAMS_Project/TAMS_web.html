@@ -23,6 +23,10 @@ permalink: /research/TAMS
     .external-link {
       background-color: #4a4a4a;
       color: #fff;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
     }
     .publication-links {
       margin-top: 20px;
@@ -32,10 +36,12 @@ permalink: /research/TAMS
       font-size: 2.5rem;
       font-weight: bold;
       margin-bottom: 10px;
+      text-align: center;
     }
     .publication-authors {
       font-size: 1.2rem;
       margin-bottom: 10px;
+      text-align: center;
     }
     .author-block {
       margin-right: 10px;
@@ -53,6 +59,12 @@ permalink: /research/TAMS
       margin-top: 20px;
       border-radius: 5px;
     }
+    .bibtex-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -60,11 +72,7 @@ permalink: /research/TAMS
 <!-- Navigation -->
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
+    <!-- <a href="https://keunhong.com/" target="_blank" rel="noopener noreferrer">Home</a> -->
   </div>
 </nav>
 
@@ -89,7 +97,7 @@ permalink: /research/TAMS
           </div>
           <div class="publication-links">
             <div class="link-block">
-              <a href="https://arxiv.org/pdf/2011.12948" class="external-link button is-normal is-rounded">
+              <a href="https://arxiv.org/pdf/2011.12948" class="external-link">
                 <span class="icon">
                   <i class="fas fa-file-pdf"></i>
                 </span>
@@ -97,7 +105,7 @@ permalink: /research/TAMS
               </a>
             </div>
             <div class="link-block">
-              <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA" class="external-link button is-normal is-rounded">
+              <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA" class="external-link">
                 <span class="icon">
                   <i class="fab fa-youtube"></i>
                 </span>
@@ -105,7 +113,7 @@ permalink: /research/TAMS
               </a>
             </div>
             <div class="link-block">
-              <a href="https://github.com/google/nerfies" class="external-link button is-normal is-rounded">
+              <a href="https://github.com/google/nerfies" class="external-link">
                 <span class="icon">
                   <i class="fab fa-github"></i>
                 </span>
@@ -113,7 +121,7 @@ permalink: /research/TAMS
               </a>
             </div>
             <div class="link-block">
-              <a href="https://github.com/google/nerfies/releases/tag/0.1" class="external-link button is-normal is-rounded">
+              <a href="https://github.com/google/nerfies/releases/tag/0.1" class="external-link">
                 <span class="icon">
                   <i class="far fa-images"></i>
                 </span>
@@ -153,8 +161,8 @@ permalink: /research/TAMS
 <!-- BibTeX Section -->
 <section class="section">
   <div class="container is-max-desktop">
+    <h2 class="title is-3 bibtex-title">BibTeX</h2>
     <div class="bibtex-section">
-      <h2 class="title is-3">BibTeX</h2>
       <pre><code>@article{park2021nerfies,
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
   title     = {Nerfies: Deformable Neural Radiance Fields},
