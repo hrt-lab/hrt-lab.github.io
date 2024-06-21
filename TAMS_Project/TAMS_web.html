@@ -1,39 +1,54 @@
 ---
 permalink: /research/TAMS
 ---
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nerfies: Deformable Neural Radiance Fields</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
 
-  <style>
-    .link-block {
-      display: inline-block;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    .link-block .button {
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      line-height: 50px;
-      padding: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="./bulma.min.css">
+  <link rel="stylesheet" href="./bulma-carousel.min.css">
+  <link rel="stylesheet" href="./bulma-slider.min.css">
+  <link rel="stylesheet" href="./fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="icon" href="./favicon.svg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script defer src="./fontawesome.all.min.js"></script>
+  <script src="./bulma-carousel.min.js"></script>
+  <script src="./bulma-slider.min.js"></script>
+  <script src="./index.js"></script>
 </head>
 <body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+  </div>
+</nav>
 
 <section class="hero">
   <div class="hero-body">
@@ -43,23 +58,12 @@ permalink: /research/TAMS
           <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              Keunhong Park<sup>1</sup>,</span>
-            <span class="author-block">
-              Utkarsh Sinha<sup>2</sup>,</span>
-            <span class="author-block">
+              Keunhong Park<sup>1</sup>,
+              Utkarsh Sinha<sup>2</sup>,
               Jonathan T. Barron<sup>2</sup>,
-            </span>
-            <span class="author-block">
               Sofien Bouaziz<sup>2</sup>,
-            </span>
-            <span class="author-block">
               Dan B Goldman<sup>2</sup>,
-            </span>
-            <span class="author-block">
-              Steven M. Seitz<sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              Ricardo Martin-Brualla<sup>2</sup>
+              Steven M. Seitz<sup>1,2</sup>
             </span>
           </div>
 
@@ -70,27 +74,20 @@ permalink: /research/TAMS
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
+              <!-- Paper Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
                 </a>
               </span>
-              <!-- arXiv Link. -->
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
                   </span>
@@ -99,30 +96,23 @@ permalink: /research/TAMS
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://github.com/google/nerfies"
+                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
-                  </a>
+                </a>
               </span>
-              <!-- Dataset Link. -->
+              <!-- Data Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
-              </span>
-              <!-- Supplementary Material Link. -->
-              <span class="link-block">
-                <a href="https://path.to/supplementary-material" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-alt"></i>
-                  </span>
-                  <span>Supplementary Material</span>
-                  </a>
+                </a>
               </span>
             </div>
           </div>
@@ -132,25 +122,24 @@ permalink: /research/TAMS
   </div>
 </section>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <!-- Your Video -->
-          <h2 class="title is-3">Your Video</h2>
-          <video id="your-video" controls playsinline height="100%">
-            <source src="./path/to/your/video.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./teaser.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
+        free-viewpoint
+        portraits.
+      </h2>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -185,21 +174,18 @@ permalink: /research/TAMS
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+  </div>
+</section>
 
-    <!-- BibTeX. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">BibTeX</h2>
-        <pre><code>@article{park2021nerfies,
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{park2021nerfies,
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
   title     = {Nerfies: Deformable Neural Radiance Fields},
   journal   = {ICCV},
   year      = {2021},
 }</code></pre>
-      </div>
-    </div>
-    <!--/ BibTeX. -->
   </div>
 </section>
 
