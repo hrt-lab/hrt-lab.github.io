@@ -1,20 +1,32 @@
+---
+permalink: /research/TAMS
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nerfies: Deformable Neural Radiance Fields</title>
+
+  <!-- External CSS -->
   <link rel="stylesheet" href="./css/bulma.min.css">
   <link rel="stylesheet" href="./css/bulma-carousel.min.css">
-  <!-- Add other CSS links as necessary -->
+  <link rel="stylesheet" href="./css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./css/academicons.min.css">
   <link rel="stylesheet" href="./css/index.css">
+  <!-- End External CSS -->
+
+  <style>
+    /* You can remove the inline styles here since they are now in external CSS */
+  </style>
 </head>
 <body>
 
 <!-- Navigation -->
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <!-- Navbar content -->
+    <!-- <a href="https://keunhong.com/" target="_blank" rel="noopener noreferrer">Home</a> -->
   </div>
 </nav>
 
@@ -26,13 +38,50 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
           <div class="is-size-5 publication-authors">
-            <!-- Authors -->
+            <span class="author-block">Keunhong Park<sup>1</sup>,</span>
+            <span class="author-block">Utkarsh Sinha<sup>2</sup>,</span>
+            <span class="author-block">Jonathan T. Barron<sup>2</sup>,</span>
+            <span class="author-block">Sofien Bouaziz<sup>2</sup>,</span>
+            <span class="author-block">Dan B Goldman<sup>2</sup>,</span>
+            <span class="author-block">Steven M. Seitz<sup>1,2</sup></span>
           </div>
           <div class="is-size-5 publication-authors">
-            <!-- Affiliations -->
+            <span class="author-block"><sup>1</sup>University of Washington,</span>
+            <span class="author-block"><sup>2</sup>Google Research</span>
           </div>
           <div class="publication-links">
-            <!-- Links -->
+            <div class="link-block">
+              <a href="https://arxiv.org/pdf/2011.12948" class="external-link">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+              </a>
+            </div>
+            <div class="link-block">
+              <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA" class="external-link">
+                <span class="icon">
+                  <i class="fab fa-youtube"></i>
+                </span>
+                <span>Video</span>
+              </a>
+            </div>
+            <div class="link-block">
+              <a href="https://github.com/google/nerfies" class="external-link">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+              </a>
+            </div>
+            <div class="link-block">
+              <a href="https://github.com/google/nerfies/releases/tag/0.1" class="external-link">
+                <span class="icon">
+                  <i class="far fa-images"></i>
+                </span>
+                <span>Data</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -48,12 +97,13 @@
         <div class="column is-three-quarters">
           <!-- Embedded Video -->
           <div class="teaser-video">
-            <!-- Video iframe -->
+            <!-- Replace with your embedded video -->
+            <iframe width="100%" height="415" src="https://www.youtube.com/embed/MrKrnHhk8IA" frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="content has-text-centered">
             <h2 class="subtitle is-3">Abstract</h2>
             <p class="abstract-text">
-              <!-- Abstract text -->
+              We present the first method capable of photorealistically reconstructing a non-rigidly deforming scene using photos/videos captured casually from mobile phones. Our approach augments neural radiance fields (NeRF) by optimizing an additional continuous volumetric deformation field that warps each observed point into a canonical 5D NeRF. We observe that these NeRF-like deformation fields are prone to local minima, and propose a coarse-to-fine optimization method for coordinate-based models that allows for more robust optimization. By adapting principles from geometry processing and physical simulation to NeRF-like models, we propose an elastic regularization of the deformation field that further improves robustness. We show that Nerfies can turn casually captured selfie photos/videos into deformable NeRF models that allow for photorealistic renderings of the subject from arbitrary viewpoints, which we dub "nerfies". We evaluate our method by collecting data using a rig with two mobile phones that take time-synchronized photos, yielding train/validation images of the same pose at different viewpoints. We show that our method faithfully reconstructs non-rigidly deforming scenes and reproduces unseen views with high fidelity.
             </p>
           </div>
         </div>
@@ -67,9 +117,12 @@
   <div class="container is-max-desktop">
     <div class="content">
       <h2 class="title is-3">BibTeX</h2>
-      <pre><code>
-        <!-- BibTeX entry -->
-      </code></pre>
+      <pre><code>@article{park2021nerfies,
+  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  title     = {Nerfies: Deformable Neural Radiance Fields},
+  journal   = {ICCV},
+  year      = {2021},
+}</code></pre>
     </div>
   </div>
 </section>
