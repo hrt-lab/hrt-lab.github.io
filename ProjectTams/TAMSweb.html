@@ -13,6 +13,9 @@ layout: page
         .center-text {
             text-align: center;
         }
+        .left-text {
+            text-align: left;
+        }
         .justify-text {
             text-align: justify;
         }
@@ -24,6 +27,14 @@ layout: page
         .video-container video {
             max-width: 80%;
             height: auto;
+        }
+        .publication-authors {
+            margin-bottom: 10px;
+        }
+        .publication-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -47,23 +58,21 @@ layout: page
                         <span class="author-block"><sup>1</sup>University of Louisville,</span>
                         <span class="author-block"><sup>2</sup>University of Louisville Health - Brown Cancer Center</span>
                     </div>
-                    <div class="column has-text-centered">
-                        <div class="publication-links">
-                            <!-- PDF Link -->
-                            <span class="link-block">
-                                <a href="https://doi.org/10.1109/LRA.2024.3405412" class="external-link button is-normal is-rounded is-dark">
-                                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                                    <span>Paper</span>
-                                </a>
-                            </span>
-                            <!-- Video Link -->
-                            <span class="link-block">
-                                <a href="https://ieeexplore.ieee.org/ielx7/7083369/10534628/10538399/supp1-3405412.mp4?arnumber=10538399" class="external-link button is-normal is-rounded is-dark">
-                                    <span class="icon"><i class="fab fa-youtube"></i></span>
-                                    <span>Video</span>
-                                </a>
-                            </span>
-                        </div>
+                    <div class="publication-links">
+                        <!-- PDF Link -->
+                        <span class="link-block">
+                            <a href="https://doi.org/10.1109/LRA.2024.3405412" class="external-link button is-normal is-rounded is-dark">
+                                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                <span>Paper</span>
+                            </a>
+                        </span>
+                        <!-- Video Link -->
+                        <span class="link-block">
+                            <a href="https://ieeexplore.ieee.org/ielx7/7083369/10534628/10538399/supp1-3405412.mp4?arnumber=10538399" class="external-link button is-normal is-rounded is-dark">
+                                <span class="icon"><i class="fab fa-youtube"></i></span>
+                                <span>Video</span>
+                            </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -83,7 +92,7 @@ layout: page
         <!-- Abstract -->
         <div class="columns is-centered">
             <div class="column is-four-fifths">
-                <h2 class="title is-3 center-text">Abstract</h2>
+                <h2 class="title is-3 left-text">Abstract</h2>
                 <div class="content justify-text">
                     <p>
                         Interstitial brachytherapy requires up to 20 straight needles to surround and irradiate deep-seated tumors, but may offer sub-optimal radiation dosage in cases of advanced cancers. A steerable stylet can be used to guide the needle within the tissue, improving procedure accuracy and reducing the number of needles required for each operation. This work introduces the design of a novel tendon-assisted magnetically steered (TAMS) robotic stylet to steer commercially available brachytherapy needles. The dual-actuation modality (magnetic and tendon-driven) allows for increased bending compliance while retaining axial rigidity at extremely small diameters (OD: 1.4 mm), key properties for steering hollow needles from within their lumen. We also develop a two-tube Cosserat rod model that estimates the behavior of the TAMS robot and needle assembly under actuation from tendons, external magnetic fields, and finally combined magnet+tendon forces. We validate our model in free space and demonstrate the capability of the TAMS robot and dual-actuation modalities to steer brachytherapy needles to high curvatures inside phantom tissue.
@@ -94,7 +103,7 @@ layout: page
         <!-- BibTeX -->
         <div class="section" id="BibTeX">
             <div class="container is-max-desktop content">
-                <h2 class="title center-text">BibTeX</h2>
+                <h2 class="title left-text">BibTeX</h2>
                 <pre><code>@ARTICLE{10538399,
   author={Kheradmand, Pejman and Moradkhani, Behnam and Jella, Harshith and Sowards, Keith and Silva, Scott R. and Chitalia, Yash},
   journal={IEEE Robotics and Automation Letters}, 
