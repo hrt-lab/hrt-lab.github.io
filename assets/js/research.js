@@ -6,7 +6,6 @@ function embedVideos(videoData) {
   const container = document.getElementById('featuredVideosContainer');
 
   videoData.forEach(video => {
-
     const iframe = document.createElement('iframe');
     iframe.src = `https://www.youtube.com/embed/${video.ytid}`;
     iframe.classList.add("embed-responsive-item");
@@ -31,9 +30,26 @@ fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResul
         title: item.snippet.title,
         ytid: item.snippet.resourceId.videoId
       }))
-      .filter(video => !mainVideoData.includes(video.ytid)
-      );
+      .filter(video => !mainVideoData.includes(video.ytid));
 
     const reversedFiltered = filteredVideoData.reverse();
     embedVideos(reversedFiltered);
   });
+
+function adjustFontSizeToFit(container, textElement) {
+  let fontSize = parseInt(window.getComputedStyle(textElement).fontSize);
+  const containerWidth = container.offsetWidth;
+
+  while (textElement.scrollWidth > containerWidth && fontSize > 10) {
+    fontSize -= 1;
+    textElement.style.fontSize = `${fontSize}px`;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const titles = document.querySelectorAll('.project-title');
+  
+  titles.forEach(title => {
+    adjustFontSizeToFit(title.parentElement, title);
+  });
+});
