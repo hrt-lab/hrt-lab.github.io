@@ -26,9 +26,9 @@
   video_url: ""
   description: "NA"
 
-- title: "FBG"
+- title: "FBG-based Stiffness Estimation Sensor"
   link: "https://hrtlab.github.io/research/FBGProject"
   link_text: "Project Website"
-  ytid: "hRPKpI03OaU"
-  video_url: ""
+  ytid: ""
+  video_url: "https://hrtlab.github.io/_pages/photos/FBG_Project.gif"
   description: "NA"
