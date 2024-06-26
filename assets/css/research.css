@@ -1,8 +1,9 @@
 .project-title {
-  font-size: 22px;
+  font-size: 22px; /* Starting font size */
   font-weight: bold;
   color: #007BFF;
   margin-bottom: 10px;
+  line-height: 1.2; /* Adjust line-height if necessary */
 }
 
 #featuredVideosContainer {
@@ -158,7 +159,7 @@
 }
 
 .no-link-space {
-  margin-bottom: 15;
+  margin-bottom: 15px;
 }
 
 .last-row {
