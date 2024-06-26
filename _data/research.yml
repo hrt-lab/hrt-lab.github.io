@@ -12,6 +12,13 @@
   video_url: "https://hrtlab.github.io/_pages/photos/ExoNav.gif"
   description: "NA"
   
+- title: "FBG-based Stiffness Estimation Sensor"
+  link: "https://hrtlab.github.io/research/FBGProject"
+  link_text: "Project Website"
+  ytid: ""
+  video_url: "https://hrtlab.github.io/_pages/photos/FBG_Project.gif"
+  description: "NA"
+  
 - title: "Concentric-tube Tendon-actuated Robots"
   link: "https://hrtlab.github.io/"
   link_text: "Project Website"
@@ -24,11 +31,4 @@
   link_text: "Project Website"
   ytid: "hRPKpI03OaU"
   video_url: ""
-  description: "NA"
-
-- title: "FBG-based Stiffness Estimation Sensor"
-  link: "https://hrtlab.github.io/research/FBGProject"
-  link_text: "Project Website"
-  ytid: ""
-  video_url: "https://hrtlab.github.io/_pages/photos/FBG_Project.gif"
   description: "NA"
