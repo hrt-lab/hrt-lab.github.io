@@ -1,0 +1,157 @@
+---
+permalink: /research/ExoNav
+layout: page
+title: ExoNav Project
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAMS: Robotic Stylet for Brachytherapy</title>
+    <style>
+        .center-text {
+            text-align: center;
+        }
+        .left-text {
+            text-align: left;
+        }
+        .justify-text {
+            text-align: justify;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .video-container video {
+            max-width: 80%;
+            height: auto;
+        }
+        .publication-authors {
+            margin-bottom: 10px;
+        }
+         .publication-authors .author-block .affiliation {
+            font-size: 0.85em; /* Adjust the font size for affiliations */
+        }
+        .publication-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        /* Styling for links */
+        .external-link {
+            display: inline-block;
+            background-color: #000;
+            padding: 5px 20px;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff; /* text color */
+        }
+        .external-link:hover {
+            background-color: #333; /* darker shade on hover */
+        }
+        .link-block {
+            margin-right: 10px; /* Adjust the margin-right to create space between link blocks */
+        }
+        /* Add this CSS for light gray background */
+        .gray-background {
+            background-color: #f0f0f0; /* light gray color */
+            padding: 10px; /* add some padding for better readability */
+            border-radius: 5px; /* optional: add border radius */
+        }
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title center-text">ExoNav: A Novel Robotic Steering for Spinal Cord Stimulation Electrodes</h1>
+                    <div class="is-size-5 publication-authors center-text">
+                        <span class="author-block"><a>Harshith Jella</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Behnam Moradkhani</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Pejman Kheradmand</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Ajmal Zemmar</a><sup>2</sup>,</span>
+                        <span class="author-block"><a>Yash Chitalia</a><sup>1</sup>,</span>
+                    </div>
+                    <div class="is-size-5 publication-authors center-text">
+                        <span class="author-block"><sup>1</sup><span class="affiliation">University of Louisville,</span></span>
+                        <span class="author-block"><sup>2</sup><span class="affiliation">Department of Neurological Surgery University of Louisville School of Medicine</span></span>
+                    </div>
+                    <div class="publication-links">
+                        <!-- PDF Link -->
+                        <span class="link-block">
+                            <a href="https://doi.org/10.1109/TMECH.2024.3401139" class="external-link">
+                                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                <span>Paper</span>
+                            </a>
+                        </span>
+                        <!-- Video Link -->
+                        <span class="link-block">
+                            <a href="" class="external-link">
+                                <span class="icon"><i class="fab fa-youtube"></i></span>
+                                <span>Video</span>
+                            </a>
+                        </span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Embedded HTML5 Video -->
+        <div class="video-container">
+            <video class="embed-responsive-item" controls loop>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Abstract -->
+        <div class="columns is-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3 left-text">Abstract</h2>
+                <div class="content justify-text">
+                    <p>
+                      Robotic steering mechanism can be useful in the placement of electrodes in spinal cord stimulation (SCS) procedures. This article introduces an innovative steering and latching mechanism called the ExoNav, designed for SCS electrodes. By applying magnetic locking in the robotic system, a noncontact stabilization is established at the robot's base to reduce tendon-sheath coupling effects that are common in continuum robots. A kinematic model has been developed and validated to predict the robot's behavior when subjected to tendon actuation. To broaden the analysis, a comparative assessment is performed by comparing robot behavior in an experimental setup involving a free base, with one stabilized by an external magnet. Finally, proof-of-concept trials with a surgeon demonstrate the capability of the ExoNav robot in phantom spinal cord models.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- BibTeX -->
+        <div class="section" id="BibTeX">
+            <div class="container is-max-desktop content">
+                <h2 class="title left-text">BibTeX</h2>
+                <pre class="gray-background"><code>@ARTICLE{10547577,
+  author={Jella, Harshith and Moradkhani, Behnam and Kheradmand, Pejman and Zemmar, Ajmal and Chitalia, Yash},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={ExoNav: A Novel Robotic Steering and Latching Mechanism for Spinal Cord Stimulation Electrodes}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Robots;Electron tubes;Tendons;Electrodes;Bending;Lead;Routing;Medical robotics;robot kinematics;surgical instruments;bio-inspired robotics},
+  doi={10.1109/TMECH.2024.3401139}}</code></pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <p>Page template borrowed from <a href="https://nerfies.github.io" target="_blank">Nerfies</a>.</p>
+</div>
+
+</body>
+</html>
