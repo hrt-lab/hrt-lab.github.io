@@ -1,1 +1,148 @@
+---
+permalink: /research/ConcentricTubeTendonDriven
+layout: page
+title: Tendon-Actuated Concentric Tube Robots
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tendon-Actuated Concentric Tube Robots</title>
+    <style>
+        .center-text {
+            text-align: center;
+        }
+        .left-text {
+            text-align: left;
+        }
+        .justify-text {
+            text-align: justify;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .video-container video {
+            max-width: 80%;
+            height: auto;
+        }
+        .publication-authors {
+            margin-bottom: 10px;
+        }
+         .publication-authors .author-block .affiliation {
+            font-size: 0.85em; /* Adjust the font size for affiliations */
+        }
+        .publication-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        /* Styling for links */
+        .external-link {
+            display: inline-block;
+            background-color: #000;
+            padding: 5px 20px;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff; /* text color */
+        }
+        .external-link:hover {
+            background-color: #333; /* darker shade on hover */
+        }
+        .link-block {
+            margin-right: 10px; /* Adjust the margin-right to create space between link blocks */
+        }
+        /* Add this CSS for light gray background */
+        .gray-background {
+            background-color: #f0f0f0; /* light gray color */
+            padding: 10px; /* add some padding for better readability */
+            border-radius: 5px; /* optional: add border radius */
+        }
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
 
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title center-text">Tendon-actuated Concentric Tube Robots</h1>
+                    <div class="is-size-5 publication-authors center-text">
+                        <span class="author-block"><a>Yash Chitalia</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Abdulhamit Donder</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Pierre Dupont</a><sup>1</sup>,</span>
+                    </div>
+                    <div class="is-size-5 publication-authors center-text">
+                        <span class="author-block"><sup>1</sup><span class="affiliation">University of Louisville,</span></span>
+                        <span class="author-block"><sup>2</sup><span class="affiliation">Boston Children's Hospital, and the Harvard Medical School</span></span>
+                    </div>
+                    <div class="publication-links">
+                        <!-- PDF Link -->
+                        <span class="link-block">
+                            <a href="https://doi.org/10.1109/LRA.2024.3405412" class="external-link">
+                                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                <span>Paper</span>
+                            </a>
+                        </span>
+                        <!-- Video Link -->
+                        <span class="link-block">
+                            <a href="https://ieeexplore.ieee.org/ielx7/7083369/10534628/10538399/supp1-3405412.mp4?arnumber=10538399" class="external-link">
+                                <span class="icon"><i class="fab fa-youtube"></i></span>
+                                <span>Video</span>
+                            </a>
+                        </span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Embedded HTML5 Video -->
+        <div class="video-container">
+            <video class="embed-responsive-item" controls loop>
+                <source src="https://hrtlab.github.io/assets/img/research/ZoomTAMS.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Abstract -->
+        <div class="columns is-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3 left-text">Abstract</h2>
+                <div class="content justify-text">
+                    <p>
+                        Mechanics-based models have been developed to describe the shape of tendon-actuated continuum robots. Models have also been developed to describe the shape of concentric tube robots, i.e., nested combinations of precurved superelastic tubes. While an important class of continuum robots used in endoscopic and intracardiac medical applications combines these two designs, existing models do not cover this combination. Tendon-actuated models are limited to a single tube while concentric tube models do not include tendon-produced forces and moments. This paper derives a mechanics-based model for this hybrid design and assesses it using numerical and physical experiments involving a pair of tendon-actuated tubes. It is demonstrated that, similar to concentric tube robots, relative twisting between the tendon-actuated tubes is an important factor in determining overall robot shape.
+        <!-- BibTeX -->
+        <div class="section" id="BibTeX">
+            <div class="container is-max-desktop content">
+                <h2 class="title left-text">BibTeX</h2>
+                <pre class="gray-background"><code>@inproceedings{chitalia2023modeling,
+  title={Modeling tendon-actuated concentric tube robots},
+  author={Chitalia, Yash and Donder, Abdulhamit and Dupont, Pierre E},
+  booktitle={2023 International Symposium on Medical Robotics (ISMR)},
+  pages={1--7},
+  year={2023},
+  organization={IEEE}}</code></pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <p>Page template borrowed from <a href="https://nerfies.github.io" target="_blank">Nerfies</a>.</p>
+</div>
+
+</body>
+</html>
