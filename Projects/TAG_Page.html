@@ -1,0 +1,155 @@
+---
+permalink: /research/TAG
+layout: page
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .center-text {
+            text-align: center;
+        }
+        .left-text {
+            text-align: left;
+        }
+        .justify-text {
+            text-align: justify;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .video-container video {
+            max-width: 80%;
+            height: auto;
+        }
+        .publication-authors {
+            margin-bottom: 10px;
+        }
+         .publication-authors .author-block .affiliation {
+            font-size: 0.85em; /* Adjust the font size for affiliations */
+        }
+        .publication-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        /* Styling for links */
+        .external-link {
+            display: inline-block;
+            background-color: #000;
+            padding: 5px 20px;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff; /* text color */
+        }
+        .external-link:hover {
+            background-color: #333; /* darker shade on hover */
+        }
+        .link-block {
+            margin-right: 10px; /* Adjust the margin-right to create space between link blocks */
+        }
+        /* Add this CSS for light gray background */
+        .gray-background {
+            background-color: #f0f0f0; /* light gray color */
+            padding: 10px; /* add some padding for better readability */
+            border-radius: 5px; /* optional: add border radius */
+        }
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title center-text">Towards the Development of a Tendon-Actuated Galvanometer for Endoscopic Surgical Laser Scanning</h1>
+                    <div class="is-size-5 publication-authors center-text">
+                        <span class="author-block"><a>Kent K. Yamamoto</a><sup>1</sup>,</span>
+                        <span class="author-block"><a> Tanner J. Zachem</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Behnam Moradkhani</a><sup>2</sup>,</span>
+                        <span class="author-block"><a>Yash Chitalia</a><sup>2</sup>,</span>
+                        <span class="author-block"><a>Patrick J. Codd</a><sup>1</sup>,</span>
+                    </div>
+                    <div class="is-size-5 publication-authors center-text">
+                        <span class="author-block"><sup>1</sup><span class="affiliation">Department of Mechanical Engineering and Materials Science, Duke University, Durham</span></span>
+                        <span class="author-block"><sup>2</sup><span class="affiliation">University of Louisville</span></span>
+                    </div>
+                    <div class="publication-links">
+                        <!-- PDF Link -->
+                        <span class="link-block">
+                            <a href="https://doi.org/10.48550/arXiv.2406.03605" class="external-link">
+                                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                <span>Paper</span>
+                            </a>
+                        </span>
+                        <!-- Video Link -->
+                        <span class="link-block">
+                            <a href="https://ieeexplore.ieee.org/ielx7/7083369/10534628/10538399/supp1-3405412.mp4?arnumber=10538399" class="external-link">
+                                <span class="icon"><i class="fab fa-youtube"></i></span>
+                                <span>Video</span>
+                            </a>
+                        </span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Embedded HTML5 Video -->
+        <div class="video-container">
+            <video class="embed-responsive-item" controls loop>
+                <source src="https://hrtlab.github.io/assets/img/research/ZoomTAMS.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Abstract -->
+        <div class="columns is-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3 left-text">Abstract</h2>
+                <div class="content justify-text">
+                    <p>
+                        Interstitial brachytherapy requires up to 20 straight needles to surround and irradiate deep-seated tumors, but may offer sub-optimal radiation dosage in cases of advanced cancers. A steerable stylet can be used to guide the needle within the tissue, improving procedure accuracy and reducing the number of needles required for each operation. This work introduces the design of a novel tendon-assisted magnetically steered (TAMS) robotic stylet to steer commercially available brachytherapy needles. The dual-actuation modality (magnetic and tendon-driven) allows for increased bending compliance while retaining axial rigidity at extremely small diameters (OD: 1.4 mm), key properties for steering hollow needles from within their lumen. We also develop a two-tube Cosserat rod model that estimates the behavior of the TAMS robot and needle assembly under actuation from tendons, external magnetic fields, and finally combined magnet+tendon forces. We validate our model in free space and demonstrate the capability of the TAMS robot and dual-actuation modalities to steer brachytherapy needles to high curvatures inside phantom tissue.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- BibTeX -->
+        <div class="section" id="BibTeX">
+            <div class="container is-max-desktop content">
+                <h2 class="title left-text">BibTeX</h2>
+                <pre class="gray-background"><code>@ARTICLE{10538399,
+  author={Kheradmand, Pejman and Moradkhani, Behnam and Jella, Harshith and Sowards, Keith and Silva, Scott R. and Chitalia, Yash},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Towards a Tendon-Assisted Magnetically Steered (TAMS) Robotic Stylet for Brachytherapy}, 
+  year={2024},
+  volume={9},
+  number={7},
+  pages={6464-6471},
+  keywords={Needles;Robots;Tendons;Bending;Brachytherapy;Tumors;Three-dimensional displays;Mechanism design;medical robots and systems;surgical robotics: steerable catheters/needles},
+  doi={10.1109/LRA.2024.3405412}}</code></pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <p>Page template borrowed from <a href="https://nerfies.github.io" target="_blank">Nerfies</a>.</p>
+</div>
+
+</body>
+</html>
