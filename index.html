@@ -29,23 +29,33 @@ subtitle: Healthcare Robotics & Telesurgery Laboratory, University of Louisville
 
   <script>
     const gifFolder = 'assets/Gifs/';
-    const gifFiles = ['TAMS.gif', 'ExoNav.gif', 'FBG_Project.gif FBG.gif TAG_FK.gif TendonactuatedConcentricTubeRobots.gif']; // Add all your GIF filenames here
+    const gifs = [
+      { file: 'TAMS.gif', duration: 3000 },
+      { file: 'ExoNav.gif', duration: 4000 },
+      { file: 'FBG_Project.gif', duration: 5000 },
+      { file: 'FBG.gif', duration: 3000 },
+      { file: 'TAG_FK.gif', duration: 4000 },
+      { file: 'TendonactuatedConcentricTubeRobots.gif', duration: 5000 }
+    ]; // Add all your GIF filenames and durations here
     let currentIndex = 0;
     const gifElement = document.getElementById('gif');
 
     function showNextGif() {
-      gifElement.src = gifFolder + gifFiles[currentIndex];
-      currentIndex = (currentIndex + 1) % gifFiles.length;
+      gifElement.src = gifFolder + gifs[currentIndex].file;
+      setTimeout(showNextGif, gifs[currentIndex].duration);
+      currentIndex = (currentIndex + 1) % gifs.length;
     }
+
     gifElement.onload = () => {
-      setTimeout(showNextGif, 3000); // Change GIF every 3 seconds
+      setTimeout(showNextGif, gifs[currentIndex].duration);
     };
+
     showNextGif(); // Start the loop
   </script>
 </body>
 </html>
 <p>
-At the HeaRT lab, we are passionate about building robots for healthcare and surgeries!  
+At the HeaRT lab, we are passionate about building robots for healthcare and surgeries!
 </p>
 <p>
 The Healthcare Robotics and Telesurgery (HeaRT) laboratory is part of the Department of Mechanical Engineering and the Louisville Automation and Robotics Research Institute at the University of Louisville. 
