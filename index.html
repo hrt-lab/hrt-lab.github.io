@@ -3,19 +3,52 @@ layout: home
 title: HeaRT Laboratory
 subtitle: Healthcare Robotics & Telesurgery Laboratory, University of Louisville
 ---
-<p align="center">
-<iframe width="640" height="340" 
-  src="https://www.youtube.com/embed/hRPKpI03OaU?playlist=hRPKpI03OaU&loop=1" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; 
-  autoplay; 
-  clipboard-write; 
-  encrypted-media; 
-  gyroscope; 
-  picture-in-picture; 
-  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Looping GIFs</title>
+  <style>
+    .gif-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .gif {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="gif-container">
+    <img id="gif" class="gif" src="" alt="GIF Player">
+  </div>
+
+  <script>
+    const gifFolder = 'path/to/your/gif/folder/';
+    const gifFiles = ['gif1.gif', 'gif2.gif', 'gif3.gif']; // Add all your GIF filenames here
+    let currentIndex = 0;
+    const gifElement = document.getElementById('gif');
+
+    function showNextGif() {
+      gifElement.src = gifFolder + gifFiles[currentIndex];
+      currentIndex = (currentIndex + 1) % gifFiles.length;
+    }
+
+    gifElement.onload = () => {
+      setTimeout(showNextGif, 3000); // Change GIF every 3 seconds
+    };
+
+    showNextGif(); // Start the loop
+  </script>
+</body>
+</html>
+
+
+
 <p>
 At the HeaRT lab, we are passionate about building robots for healthcare and surgeries!  
 </p>
