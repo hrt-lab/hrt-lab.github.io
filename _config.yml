@@ -23,6 +23,7 @@ navbar-links:
   Research: "research"
   Publications: "publications"
   Journal club: "JournalClub"
+  News : "news"
   People: "people"
 ################
 # --- Logo --- #
