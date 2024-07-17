@@ -12,12 +12,13 @@ subtitle: Healthcare Robotics & Telesurgery Laboratory, University of Louisville
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     .carousel-item img {
-      width: 80vw;
+      width: 100%;
       height: auto;
+      max-height: calc(100vw * 9 / 16);
       margin: 0 auto;
     }
     .carousel {
-      height: 100vh;
+      height: calc(100vw * 9 / 16); /* Adjust height to maintain 16:9 aspect ratio */
     }
     .carousel-inner {
       height: 100%;
