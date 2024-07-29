@@ -15,9 +15,10 @@
   width: 48%;
 }
 
-.container h2 {
-  font-size: 5px; /* Adjust the size as needed */
+h2 {
+  font-size: 24px; /* Adjust the size as needed */
 }
+
 
 
 @media screen and (max-width: 768px) {
