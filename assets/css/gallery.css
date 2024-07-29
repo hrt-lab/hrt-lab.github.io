@@ -15,12 +15,6 @@
   width: 48%;
 }
 
-h2 {
-  font-size: 24px; /* Adjust the size as needed */
-}
-
-
-
 @media screen and (max-width: 768px) {
   .gallery-img-item {
     width: 100%;
