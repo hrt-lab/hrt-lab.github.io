@@ -1,50 +1,81 @@
-  ---
-  permalink: /news/
-  layout: page
-  title: "News"
-  full-width: true
-  ---
-
+---
+permalink: /news/
+layout: page
+title: "News"
+full-width: false
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAML Data Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .entry {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .entry img {
+            max-width: 100%;
+            height: auto;
+        }
+        .entry h2 {
+            margin: 10px 0;
+        }
+        .entry p {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-  <h1>{{ page.title }}</h1>
-
-  <div class="news-events">
-    {% for event in site.data.events %}
-      <div class="event">
-        <h2>{{ event.headline }}</h2>
-        <p>{{ event.date }}</p>
-        {% if event.image %}
-          <img src="{{ event.image }}" alt="{{ event.headline }}">
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
-
-  <style>
-    .news-events {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .event {
-      border: 1px solid #ccc;
-      padding: 20px;
-      border-radius: 8px;
-    }
-    .event img {
-      max-width: 100%;
-      height: auto;
-      margin-top: 10px;
-      border-radius: 8px;
-    }
-  </style>
+    <div class="container">
+        <!-- Entries will be dynamically inserted here -->
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('data.yml')
+                .then(response => response.text())
+                .then(data => {
+                    const entries = jsyaml.load(data);
+                    const container = document.querySelector('.container');
+                    entries.forEach(entry => {
+                        const entryDiv = document.createElement('div');
+                        entryDiv.classList.add('entry');
+                        
+                        const title = document.createElement('h2');
+                        title.textContent = entry.title;
+                        
+                        const date = document.createElement('p');
+                        date.textContent = entry.date;
+                        
+                        entryDiv.appendChild(title);
+                        entryDiv.appendChild(date);
+                        
+                        if (entry.image) {
+                            const img = document.createElement('img');
+                            img.src = entry.image;
+                            entryDiv.appendChild(img);
+                        }
+                        
+                        container.appendChild(entryDiv);
+                    });
+                })
+                .catch(error => console.error('Error loading YAML data:', error));
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 </body>
 </html>
-
