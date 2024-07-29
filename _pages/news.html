@@ -5,3 +5,12 @@ title: "News"
 full-width: false
 ---
 {% include news.html %}
+{% for item in site.data.news %}
+  <div class="news-item">
+    <h3>{{ item.date }}</h3>
+    <p>{{ item.headline | raw }}</p>
+    {% if item.image %}
+      <img src="{{ item.image }}" alt="News Image" />
+    {% endif %}
+  </div>
+{% endfor %}
