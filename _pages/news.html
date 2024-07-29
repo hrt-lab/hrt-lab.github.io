@@ -4,4 +4,53 @@ layout: page
 title: "News"
 full-width: false
 ---
-{% include news.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  ---
+  permalink: /news/
+  layout: page
+  title: "News"
+  full-width: true
+  ---
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="news-events">
+    {% for event in site.data.events %}
+      <div class="event">
+        <h2>{{ event.headline }}</h2>
+        <p>{{ event.date }}</p>
+        {% if event.image %}
+          <img src="{{ event.image }}" alt="{{ event.headline }}">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <style>
+    .news-events {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .event {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .event img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</body>
+</html>
+
