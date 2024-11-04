@@ -1,137 +1,39 @@
-/*
- * Custom CSS for the People page.
- * 
- * -------------- PLEASE READ IF YOU WISH TO EDIT THE PAGE LAYOUT --------------
- * Last edited: 5/9/22
- * For any questions, please reach out to behnam.moradkhani@louisville.edu
- * -----------------------------------------------------------------------------
- * Modified to use a flexible grid layout with automatic adjustment and margins.
- */
 
 .full-page {
   width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 20px 0 10px;
+  padding-left: 20px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
   gap: 20px; /* Space between items */
-  padding: 20px; /* Optional padding around the grid */
+  padding: 20px;
+}
+
+/* Section-specific styling with margin for separation */
+#faculty,
+#phd-students,
+#masters-students,
+#undergrad-students {
+  margin-bottom: 40px;
 }
 
 .member-info {
-  max-width: 200px !important;
-  max-height: 200px !important;
+  max-width: 200px;
+  max-height: 200px;
   margin: 0 auto;
   padding-bottom: 10px;
   border: 1px solid #ddd; /* Optional border for better spacing visibility */
   border-radius: 8px; /* Optional rounded corners */
-}
-
-/* Faculty */
-#row-label-0 {
-  font-weight: 700;
-  padding-left: 50px;
-}
-.type-0 { }
-
-/* PhD students */
-#row-label-1 {
-  font-weight: 700;
-  padding-left: 50px;
-}
-.type-1 { }
-
-/* Masters students */
-#row-label-2 {
-  font-weight: 700;
-  padding-left: 50px;
-}
-.type-2-1 { }
-
-/* Undergraduate students */
-#row-label-3 {
-  font-weight: 700;
-  padding-left: 50px;
-}
-.type-3-1 { }
-.type-3-2 { }
-.type-3-3 { }
-.type-3-4 { }
-
-/* Honorary lab members */
-#row-label-4 {
-  font-weight: 700;
-  padding-left: 50px;
-}
-.type-4 { }
-
-/* Robots */
-#row-label-5 {
-  font-weight: 700;
-  padding-left: 50px;
-}
-.type-5-1 { }
-.type-5-2 { }
-
-/* Lab alumni */
-#alumni {
-  padding-left: 50px;
-}
-
-#alumni-label {
-  font-weight: 700;
-  padding-top: 50px;
-}
-
-.alumni-entries {
-  display: grid;
-  grid-template-columns: 200px 250px auto;
-  grid-template-rows: 1fr;
-  grid-template-areas: "name dept job";
-  column-gap: 20px;
-  margin-bottom: 5px;
-}
-
-.pub-grid-parent {
-  display: grid;
-  grid-template-columns: 200px auto;
-  grid-template-rows: 1fr;
-  column-gap: 20px;
-  margin-bottom: 20px;
-}
-
-.pub-grid-child {
-  justify-self: start;
-  align-self: start;
-}
-
-.grid-parent {
-  display: grid;
-  grid-template-columns: 80px auto;
-  grid-template-rows: 1fr;
-  column-gap: 20px;
-  margin-bottom: 20px;
-}
-
-.grid-child {
-  justify-self: start;
-  align-self: start;
-}
-
-.alumni-names {
-  grid-area: name;
-  font-weight: bold;
-}
-
-.alumni-department {
-  grid-area: dept;
-}
-
-.alumni-job {
-  grid-area: job;
 }
 
 /* Modal related */
@@ -192,25 +94,19 @@
   display: none;
 }
 
-/* For smaller screens */
+/* Responsive adjustments */
 @media (max-width: 800px) {
-  .row-label,
-  .type-0-info {
-    display: none;
-  }
   .full-page {
-    display: flex;
-    flex-direction: column;
     width: 100%;
   }
   .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive on smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
   }
   .member-info {
-    max-width: 300px !important;
-    max-height: 350px !important;
-    margin-bottom: 20px !important;
+    max-width: 300px;
+    max-height: 350px;
+    margin-bottom: 20px;
   }
   .img-fluid {
     margin-bottom: 10px;
