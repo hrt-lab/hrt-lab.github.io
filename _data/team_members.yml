@@ -72,15 +72,15 @@
   type: 3-1
 
 - name: Joey Klein 
-  photo: Joey Klein.JPG
+  photo: Joey_Klein.png
   info: ""
   email: joseph.klein.1@louisville.edu
   bio: ""
   website: ""
   type: 3-1
 
-  - name: Ben Beyerle
-  photo: Ben Beyerle.jpeg
+- name: Ben Beyerle
+  photo: Ben_Beyerle.png
   info: ""
   email: benjamin.beyerle@louisville.edu
   bio: ""
