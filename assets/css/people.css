@@ -5,21 +5,7 @@
  * Last edited: 5/9/22
  * For any questions, please reach out to behnam.moradkhani@louisville.edu
  * -----------------------------------------------------------------------------
- * Currently, the images are fixed into place using CSS Grid. The justification 
- * behind this (e.g. instead of using Flexbox) is that CSS grid is the best way 
- * to layout dynamic data from the team members YAML configuration file. Using 
- * Flexbox does not allow for dynamic reordering of the data (i.e. the order 
- * impacts the layout and display & could cause potential issues). However, 
- * using Grid does mean that the code is less automatically scalable.
- * 
- * The general summary of how it works:
- * 1) A "type" identifier (PhD, MS, ...) is injected into each member's div.
- *    - Faculty = 0, PhD = 1, Collaborators = 2, Undergrads = 3, Other = 4
- * 2) Each type has a separate ROW with three columns for three people.
- * 3) If there are more than 3 people in the row for that type, then there are 
- *    several remedies:
- *    - The number of columns can be increased
- *    - Create additional rows for that type and move some people down (current)
+ * Modified to use a flexible grid layout with automatic adjustment and margins.
  */
 
 .full-page {
@@ -30,8 +16,9 @@
 
 .grid-container {
   display: grid;
-  grid-template-rows: 50px 1fr 50px 1fr 50px 1fr 50px 1fr 1fr 1fr 1fr 50px 1fr 50px 1fr;
-  grid-template-columns: repeat(3, 1fr); /* Each person gets his/her column */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between items */
+  padding: 20px; /* Optional padding around the grid */
 }
 
 .member-info {
@@ -39,85 +26,55 @@
   max-height: 200px !important;
   margin: 0 auto;
   padding-bottom: 10px;
+  border: 1px solid #ddd; /* Optional border for better spacing visibility */
+  border-radius: 8px; /* Optional rounded corners */
 }
 
 /* Faculty */
 #row-label-0 {
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 3;
   font-weight: 700;
   padding-left: 50px;
 }
-.type-0 {
-  grid-row: 2 / span 1;
-}
+.type-0 { }
 
 /* PhD students */
 #row-label-1 {
-  grid-row: 3 / span 1;
-  grid-column: 1 / span 3;
   font-weight: 700;
   padding-left: 50px;
 }
-.type-1 {
-  grid-row: 4 / span 1;
-}
+.type-1 { }
 
 /* Masters students */
 #row-label-2 {
-  grid-row: 5 / span 1;
-  grid-column: 1 / span 3;
   font-weight: 700;
   padding-left: 50px;
 }
-.type-2-1 {
-  grid-row: 6 / span 1;
-}
+.type-2-1 { }
 
 /* Undergraduate students */
 #row-label-3 {
-  grid-row: 7 / span 1;
-  grid-column: 1 / span 3;
   font-weight: 700;
   padding-left: 50px;
 }
-.type-3-1 {
-  grid-row: 8 / span 1;
-}
-.type-3-2 {
-  grid-row: 9 / span 1;
-}
-.type-3-3 {
-  grid-row: 10 / span 1;
-}
-.type-3-4 {
-  grid-row: 11 / span 1;
-}
+.type-3-1 { }
+.type-3-2 { }
+.type-3-3 { }
+.type-3-4 { }
 
 /* Honorary lab members */
 #row-label-4 {
-  grid-row: 13 / span 1;
-  grid-column: 1 / span 3;
   font-weight: 700;
   padding-left: 50px;
 }
-.type-4 {
-  grid-row: 14 / span 1;
-}
+.type-4 { }
 
 /* Robots */
 #row-label-5 {
-  grid-row: 15 / span 1;
-  grid-column: 1 / span 3;
   font-weight: 700;
   padding-left: 50px;
 }
-.type-5-1 {
-  grid-row: 16 / span 1;
-}
-.type-5-2 {
-  grid-row: 17 / span 1;
-}
+.type-5-1 { }
+.type-5-2 { }
 
 /* Lab alumni */
 #alumni {
@@ -246,10 +203,14 @@
     flex-direction: column;
     width: 100%;
   }
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive on smaller screens */
+    gap: 15px;
+  }
   .member-info {
     max-width: 300px !important;
     max-height: 350px !important;
-    margin-bottom: 70px !important;
+    margin-bottom: 20px !important;
   }
   .img-fluid {
     margin-bottom: 10px;
