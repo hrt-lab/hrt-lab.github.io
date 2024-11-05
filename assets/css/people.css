@@ -30,10 +30,10 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
-  gap: 20px; /* Space between items */
-  padding: 20px; /* Optional padding around the grid */
-  justify-content: start; /* Aligns items to the left */
+  grid-template-columns: repeat(4, minmax(200px, 1fr)); /* Allows up to 4 items per row and wraps extra */
+  gap: 20px;
+  padding: 20px;
+  justify-content: start;
 }
 
 .member-info {
@@ -51,7 +51,8 @@
   padding-left: 50px;
 }
 .type-0 {
-  grid-row: 2 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 
 /* PhD students */
@@ -62,7 +63,8 @@
   padding-left: 50px;
 }
 .type-1 {
-  grid-row: 4 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 
 /* Masters students */
@@ -73,7 +75,8 @@
   padding-left: 50px;
 }
 .type-2-1 {
-  grid-row: 6 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 
 /* Undergraduate students */
@@ -84,16 +87,20 @@
   padding-left: 50px;
 }
 .type-3-1 {
-  grid-row: 8 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 .type-3-2 {
-  grid-row: 9 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 .type-3-3 {
-  grid-row: 10 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 .type-3-4 {
-  grid-row: 11 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 
 /* Honorary lab members */
@@ -104,7 +111,8 @@
   padding-left: 50px;
 }
 .type-4 {
-  grid-row: 14 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 
 /* Robots */
@@ -115,10 +123,12 @@
   padding-left: 50px;
 }
 .type-5-1 {
-  grid-row: 16 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 .type-5-2 {
-  grid-row: 17 / span 1;
+  grid-row: auto;
+  grid-column: auto;
 }
 
 /* Lab alumni */
