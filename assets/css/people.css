@@ -4,7 +4,7 @@
  * -------------- PLEASE READ IF YOU WISH TO EDIT THE PAGE LAYOUT --------------
  * Last edited: 5/9/22
  * For any questions, please reach out to behnam.moradkhani@louisville.edu
- * ----------------------------------------------------------------------------- 
+ * -----------------------------------------------------------------------------
  * Currently, the images are fixed into place using CSS Grid. The justification 
  * behind this (e.g. instead of using Flexbox) is that CSS grid is the best way 
  * to layout dynamic data from the team members YAML configuration file. Using 
@@ -30,10 +30,8 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
-  gap: 20px; /* Space between items */
-  padding: 20px; /* Optional padding around the grid */
-  justify-content: start; /* Aligns items to the left */
+  grid-template-rows: 50px 1fr 50px 1fr 50px 1fr 50px 1fr 1fr 1fr 1fr 50px 1fr 50px 1fr;
+  grid-template-columns: repeat(3, 1fr); /* Each person gets his/her column */
 }
 
 .member-info {
@@ -51,7 +49,7 @@
   padding-left: 50px;
 }
 .type-0 {
-  grid-column: span 1; /* Faculty */
+  grid-row: 2 / span 1;
 }
 
 /* PhD students */
@@ -62,7 +60,7 @@
   padding-left: 50px;
 }
 .type-1 {
-  grid-column: span 1; /* PhD students */
+  grid-row: 4 / span 1;
 }
 
 /* Masters students */
@@ -72,8 +70,8 @@
   font-weight: 700;
   padding-left: 50px;
 }
-.type-2 {
-  grid-column: span 1; /* Masters students */
+.type-2-1 {
+  grid-row: 6 / span 1;
 }
 
 /* Undergraduate students */
@@ -83,8 +81,17 @@
   font-weight: 700;
   padding-left: 50px;
 }
-.type-3 {
-  grid-column: span 1; /* Undergraduate students */
+.type-3-1 {
+  grid-row: 8 / span 1;
+}
+.type-3-2 {
+  grid-row: 9 / span 1;
+}
+.type-3-3 {
+  grid-row: 10 / span 1;
+}
+.type-3-4 {
+  grid-row: 11 / span 1;
 }
 
 /* Honorary lab members */
@@ -95,7 +102,7 @@
   padding-left: 50px;
 }
 .type-4 {
-  grid-column: span 1; /* Honorary lab members */
+  grid-row: 14 / span 1;
 }
 
 /* Robots */
@@ -105,8 +112,11 @@
   font-weight: 700;
   padding-left: 50px;
 }
-.type-5 {
-  grid-column: span 1; /* Robots */
+.type-5-1 {
+  grid-row: 16 / span 1;
+}
+.type-5-2 {
+  grid-row: 17 / span 1;
 }
 
 /* Lab alumni */
