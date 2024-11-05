@@ -33,6 +33,7 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
   gap: 20px; /* Space between items */
   padding: 20px; /* Optional padding around the grid */
+  justify-content: start; /* Aligns items to the left */
 }
 
 .member-info {
