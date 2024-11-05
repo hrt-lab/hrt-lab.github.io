@@ -4,7 +4,7 @@
  * -------------- PLEASE READ IF YOU WISH TO EDIT THE PAGE LAYOUT --------------
  * Last edited: 5/9/22
  * For any questions, please reach out to behnam.moradkhani@louisville.edu
- * -----------------------------------------------------------------------------
+ * ----------------------------------------------------------------------------- 
  * Currently, the images are fixed into place using CSS Grid. The justification 
  * behind this (e.g. instead of using Flexbox) is that CSS grid is the best way 
  * to layout dynamic data from the team members YAML configuration file. Using 
@@ -50,7 +50,7 @@
   padding-left: 50px;
 }
 .type-0 {
-  grid-row: 2 / span 1;
+  grid-column: span 1; /* Faculty */
 }
 
 /* PhD students */
@@ -61,7 +61,7 @@
   padding-left: 50px;
 }
 .type-1 {
-  grid-row: 4 / span 1;
+  grid-column: span 1; /* PhD students */
 }
 
 /* Masters students */
@@ -71,8 +71,8 @@
   font-weight: 700;
   padding-left: 50px;
 }
-.type-2-1 {
-  grid-row: 6 / span 1;
+.type-2 {
+  grid-column: span 1; /* Masters students */
 }
 
 /* Undergraduate students */
@@ -82,17 +82,8 @@
   font-weight: 700;
   padding-left: 50px;
 }
-.type-3-1 {
-  grid-row: 8 / span 1;
-}
-.type-3-2 {
-  grid-row: 9 / span 1;
-}
-.type-3-3 {
-  grid-row: 10 / span 1;
-}
-.type-3-4 {
-  grid-row: 11 / span 1;
+.type-3 {
+  grid-column: span 1; /* Undergraduate students */
 }
 
 /* Honorary lab members */
@@ -103,7 +94,7 @@
   padding-left: 50px;
 }
 .type-4 {
-  grid-row: 14 / span 1;
+  grid-column: span 1; /* Honorary lab members */
 }
 
 /* Robots */
@@ -113,11 +104,8 @@
   font-weight: 700;
   padding-left: 50px;
 }
-.type-5-1 {
-  grid-row: 16 / span 1;
-}
-.type-5-2 {
-  grid-row: 17 / span 1;
+.type-5 {
+  grid-column: span 1; /* Robots */
 }
 
 /* Lab alumni */
