@@ -30,8 +30,10 @@
 
 .grid-container {
   display: grid;
-  grid-template-rows: 50px 1fr 50px 1fr 50px 1fr 50px 1fr 1fr 1fr 1fr 50px 1fr 50px 1fr;
-  grid-template-columns: repeat(3, 1fr); /* Each person gets his/her column */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between items */
+  padding: 20px; /* Optional padding around the grid */
+  justify-content: start; /* Aligns items to the left */
 }
 
 .member-info {
