@@ -30,7 +30,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-rows: 45px 1fr 45px 1fr 45px 1fr 45px 1fr 1fr 1fr 1fr 45px 1fr 45px 1fr;
+  grid-template-rows: 50px 1fr 50px 1fr 50px 1fr 50px 1fr 1fr 1fr 1fr 50px 1fr 50px 1fr;
   grid-template-columns: repeat(3, 1fr); /* Each person gets his/her column */
 }
 
@@ -247,8 +247,8 @@
     width: 100%;
   }
   .member-info {
-    max-width: 280px !important;
-    max-height: 330px !important;
+    max-width: 300px !important;
+    max-height: 350px !important;
     margin-bottom: 70px !important;
   }
   .img-fluid {
