@@ -6,3 +6,43 @@ css: /assets/css/people.css
 js: /assets/js/people.js
 full-width: true
 ---
+<div class="people-page">
+    <h1>People</h1>
+
+    {% assign categories = site.data.people | group_by: "category" %}
+    {% for category in categories %}
+    <div class="category-section">
+        <h2>{{ category.name }}</h2>
+        <div class="category-people">
+            {% for person in category.items %}
+            <div class="person">
+                <img src="{{ person.image }}" alt="{{ person.name }}" class="person-image" />
+                <h3>{{ person.name }}</h3>
+                <button class="bio-btn" onclick="showBio('{{ person.id }}')">View Bio</button>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Modal for Bio -->
+<div id="bio-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeBio()">&times;</span>
+        <div id="bio-content"></div>
+    </div>
+</div>
+
+<script>
+function showBio(personId) {
+    const bio = document.getElementById(`bio-${personId}`).innerHTML;
+    document.getElementById("bio-content").innerHTML = bio;
+    document.getElementById("bio-modal").style.display = "block";
+}
+
+function closeBio() {
+    document.getElementById("bio-modal").style.display = "none";
+}
+</script>
+
