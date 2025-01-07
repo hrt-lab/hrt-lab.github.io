@@ -1,19 +1,19 @@
 ---
 permalink: /people/
 layout: people-page
-title: People
+title: People & Robots
 css: /assets/css/people.css
 js: /assets/js/people.js
 full-width: true
 ---
-<!DOCTYPE html>
+
 <div class="full-page">
   <div class="grid-container">
     <h2 class="row-label" id="row-label-0">Faculty</h2>
     <h2 class="row-label" id="row-label-1">Ph.D. Students</h2>
-    <h2 class="row-label" id="row-label-2">Collaborator</h2>
-    <h2 class="row-label" id="row-label-3">Undergraduate Students</h2>    
-  
+    <h2 class="row-label" id="row-label-2">OT Collaborator</h2>
+    <h2 class="row-label" id="row-label-3">Undergraduate Students</h2>
+
     {% for member in site.data.team_members %}
     <div class="member-info my-3 type-{{ member.type }}">
 
@@ -34,7 +34,7 @@ full-width: true
       <div
         class="text-center clickable-modal-trigger"
         id="modal-trigger-text-{{ forloop.index }}">
-        {% if member.type != "5-1" and member.type != "5-2" %} <!-- Non Robots-->
+        {% if member.type != "7-1" and member.type != "7-2" %} <!-- Non Robots-->
         <strong>{{ member.name }}</strong>
         {% else %} <!-- Robots -->
         <a href="{{ member.website }}" target="_blank"><strong>{{ member.name }}</strong></a>
@@ -43,7 +43,7 @@ full-width: true
       {% endif %}
 
       <!-- Hidden modal that opens when image clicked -->
-      {% if member.type != "5-1" or member.type != "5-2" %} <!-- Exclude robots -->
+      {% if member.type != "7-1" or member.type != "7-2" %} <!-- Exclude robots -->
       <div class="image-modal" id="modal-{{ forloop.index }}">
         <div class="image-modal-content">
           <span class="close">&times;</span>
