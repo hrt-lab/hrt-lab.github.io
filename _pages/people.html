@@ -23,25 +23,13 @@ full-width: true
         src="{{
       '/assets/img/team/' | append: member.photo | relative_url }}"
         style="float: left" />
-
-      {% if member == site.data.team_members.first %}
-      <div
-        class="text-center clickable-modal-trigger tapo-title"
-        id="modal-trigger-text-{{ forloop.index }}">
-        <strong>{{ member.name }}</strong>
-      </div>
-      {% else %}
+      
       <div
         class="text-center clickable-modal-trigger"
         id="modal-trigger-text-{{ forloop.index }}">
-        {% if member.type != "7-1" and member.type != "7-2" %} <!-- Non Robots-->
         <strong>{{ member.name }}</strong>
-        {% else %} <!-- Robots -->
-        <a href="{{ member.website }}" target="_blank"><strong>{{ member.name }}</strong></a>
-        {% endif %}
       </div>
-      {% endif %}
-
+      
       <!-- Hidden modal that opens when image clicked -->
       {% if member.type != "7-1" or member.type != "7-2" %} <!-- Exclude robots -->
       <div class="image-modal" id="modal-{{ forloop.index }}">
