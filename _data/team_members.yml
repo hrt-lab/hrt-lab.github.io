@@ -48,28 +48,28 @@
   info: Assistant Professor, Neurological Surgery
   email: 
   bio: 
-  type: 2-1
+  type: 2
 
 - name: Scott R. Silva
   photo: Scott_R_Silva.jpg
   info: Assistant Professor, Radiation Oncology
   email: 
   bio: 
-  type: 2-1
+  type: 2
 
 - name: Keith Sowards
   photo: Keith_Sowards.png
   info: Assistant Professor, Radiation Oncology
   email: 
   bio: 
-  type: 2-1
+  type: 2
 
 - name: Patrick J. Codd
   photo: Dr_Patrick_Codd.jpeg
   info: Associate Professor, Neurosurgery
   email: 
   bio: 
-  type: 2-1
+  type: 2
   
 - name: Harshith Jella
   photo: Harshith.png
@@ -77,7 +77,7 @@
   email: harshith.jella@louisville.edu
   bio: Harshith is an undergraduate student at the University of Louisville on the pre-health pathway, interested about the intersection of robotics and healthcare. Originally hailing from Frisco, Texas, he graduated from Liberty High School and participated in First Tech Challenge robotics competition for a majority of my high school career. Some of my other research interests include immunology and cancer, recognizing the immense potential for robotics to aid in the development of innovative treatments. In his free time he enjoys travelling and trying new foods!
   website: https://www.linkedin.com/in/harshith-jella-95498b223/
-  type: 3-1
+  type: 3
 
 - name: Joey Klein 
   photo: Joey_Klein.png
@@ -85,7 +85,7 @@
   email: joseph.klein.1@louisville.edu
   bio: Joseph is an undergraduate mechanical engineering student at the University of Louisville, completing a minor in computer science. With a passion in medicine and biotechnology, he has gained hands-on experience in both cancer cell and biomechanical research at the UofL Health Campus. Interested in the use of robotics in the medical industry, Joseph joined the HeaRT lab in the Fall of 2024. Beyond academics, he is a member of Greek life and the UofL men's club soccer team.
   website: https://www.linkedin.com/in/joseph-klein-281382263/
-  type: 3-1
+  type: 3
 
 - name: Ben Beyerle
   photo: Ben_Beyerle.png
@@ -93,4 +93,4 @@
   email: benjamin.beyerle@louisville.edu
   bio: Ben is an undergraduate mechanical engineering student at the University of Louisville, pursuing a minor in economics. He has gained hands-on experience at companies like Johnson & Johnson, GE Appliances, and Textron Systems, where his passion for medical technology, robotics, and automation grew. Outside of academics, Ben enjoys exercising, camping, and woodworking.
   website: ""
-  type: 3-1
+  type: 3
