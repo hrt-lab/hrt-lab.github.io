@@ -24,7 +24,7 @@ full-width: true
       '/assets/img/team/' | append: member.photo | relative_url }}"
         style="float: left" />
 
-      {% if member == 0 %}
+      {% if member == site.data.team_members.first %}
       <div
         class="text-center clickable-modal-trigger tapo-title"
         id="modal-trigger-text-{{ forloop.index }}">
