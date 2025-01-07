@@ -23,7 +23,7 @@ navbar-links:
   Research: "research"
   Publications: "publications"
   News : "news"
-# People: "people"
+  People: "people"
 ################
 # --- Logo --- #
 ################
