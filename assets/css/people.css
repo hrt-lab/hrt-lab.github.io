@@ -217,10 +217,11 @@
 
 /* For smaller screens */
 @media (max-width: 800px) {
-
-  .row-label,
-  .type-0-info {
-    display: none;
+  .row-label {
+    display: block; /* Ensure the titles are displayed */
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    margin-bottom: 10px;
+    padding-left: 20px; /* Adjust the padding for a better mobile layout */
   }
 
   .full-page {
