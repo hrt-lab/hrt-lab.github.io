@@ -1,48 +1,86 @@
 ---
 permalink: /people/
-layout: page
-title: People
+layout: people-page
+title: People & Robots
 css: /assets/css/people.css
 js: /assets/js/people.js
 full-width: true
 ---
-<div class="people-page">
-    <h1>People</h1>
 
-    {% assign categories = site.data.people | group_by: "category" %}
-    {% for category in categories %}
-    <div class="category-section">
-        <h2>{{ category.name }}</h2>
-        <div class="category-people">
-            {% for person in category.items %}
-            <div class="person">
-                <img src="{{ person.image }}" alt="{{ person.name }}" class="person-image" />
-                <h3>{{ person.name }}</h3>
-                <button class="bio-btn" onclick="showBio('{{ person.id }}')">View Bio</button>
-            </div>
-            {% endfor %}
+<div class="full-page">
+  <div class="grid-container">
+    <h2 class="row-label" id="row-label-0">Faculty</h2>
+    <h2 class="row-label" id="row-label-1">Postdoc</h2>
+    <h2 class="row-label" id="row-label-2">Ph.D. Students</h2>
+    <h2 class="row-label" id="row-label-3">M.S. & M.Eng. Students</h2>
+    <h2 class="row-label" id="row-label-4">Undergraduate Students</h2>
+    <h2 class="row-label" id="row-label-5">Visiting Interns</h2>
+    <h2 class="row-label" id="row-label-6">OT Collaborator</h2>
+    <h2 class="row-label" id="row-label-7">Robots</h2>
+
+    {% for member in site.data.team_members %}
+    <div class="member-info my-3 type-{{ member.type }}">
+
+      <img
+        class="img-fluid clickable-modal-trigger"
+        id="modal-trigger-image-{{ forloop.index }}"
+        src="{{
+      '/assets/img/team/' | append: member.photo | relative_url }}"
+        style="float: left" />
+
+      {% if member == site.data.team_members.first %}
+      <div
+        class="text-center clickable-modal-trigger tapo-title"
+        id="modal-trigger-text-{{ forloop.index }}">
+        <strong>{{ member.name }}</strong>
+      </div>
+      {% else %}
+      <div
+        class="text-center clickable-modal-trigger"
+        id="modal-trigger-text-{{ forloop.index }}">
+        {% if member.type != "7-1" and member.type != "7-2" %} <!-- Non Robots-->
+        <strong>{{ member.name }}</strong>
+        {% else %} <!-- Robots -->
+        <a href="{{ member.website }}" target="_blank"><strong>{{ member.name }}</strong></a>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <!-- Hidden modal that opens when image clicked -->
+      {% if member.type != "7-1" or member.type != "7-2" %} <!-- Exclude robots -->
+      <div class="image-modal" id="modal-{{ forloop.index }}">
+        <div class="image-modal-content">
+          <span class="close">&times;</span>
+          {{ member.info }}<br />
+          Email: {{ member.email }}<br />
+
+          {% if member.website != "" %}
+          <a href="{{ member.website }}" target="_blank">{{ member.website }}</a>
+          {% endif %}
+
+          <p>{{ member.bio }}</p>
         </div>
+      </div>
+      {% endif %}
     </div>
     {% endfor %}
-</div>
 
-<!-- Modal for Bio -->
-<div id="bio-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-btn" onclick="closeBio()">&times;</span>
-        <div id="bio-content"></div>
+    <!-- Number of people to be displayed. Used by JavaScript -->
+    <div id="modal-control">{{ site.data.team_members.size }}</div>
+  </div>
+
+  <div id="alumni">
+    <h2 class="row-label" id="alumni-label">Alumni</h2>
+    {% for alum in site.data.alumni %}
+    <div class="alumni-entries">
+      <div class="alumni-names grid-child">
+        {% if alum.website != "" %}
+        <a href="{{ alum.website }}" target="_blank">{{ alum.name }}</a>
+        {% else %} {{ alum.name }} {% endif %}
+      </div>
+      <div class="alumni-department grid-child">{{ alum.department }}</div>
+      <div class="alumni-job grid-child">{{ alum.job }}</div>
     </div>
+    {% endfor %}
+  </div>
 </div>
-
-<script>
-function showBio(personId) {
-    const bio = document.getElementById(`bio-${personId}`).innerHTML;
-    document.getElementById("bio-content").innerHTML = bio;
-    document.getElementById("bio-modal").style.display = "block";
-}
-
-function closeBio() {
-    document.getElementById("bio-modal").style.display = "none";
-}
-</script>
-
