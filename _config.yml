@@ -20,6 +20,7 @@ author: HeaRT Lab, inspired by the EmPRISE Lab at Cornell University
 ###############################################
 
 navbar-links:
+  Home: "/"
   Research: "research"
   Publications: "publications"
   News : "news"
