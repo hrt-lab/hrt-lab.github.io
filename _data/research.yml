@@ -33,11 +33,11 @@
   video_url: "https://hrtlab.github.io/assets/img/research/TAG_FK2.gif"
   description: "NA"
 
-- title: "ExoNav2: Robotic Steering for Spinal Cord"
-  link: "https://hrtlab.github.io/research/ExoNav"
+- title: "ExoNav II: Robotic Tool for Follow-the-Leader Spinal Cord Stimulation"
+  link: "https://hrtlab.github.io/research/ExoNav2"
   link_text: "Project Website"
   ytid: ""
-  video_url: "https://hrtlab.github.io/_pages/photos/ExoNav_Project_Thumbnail.gif"
+  video_url: "https://hrtlab.github.io/_pages/photos/ExoNav2.gif"
   description: "NA"
 
 - title: "Tendon-Actuated Galvanometer Robot2"
