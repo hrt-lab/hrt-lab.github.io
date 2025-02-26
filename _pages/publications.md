@@ -21,7 +21,22 @@ analytics: true
   </figcaption>
 </figure>
 
-
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/assets/img/research/TACTER.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="" target="_blank">Tendon-Actuated Concentric Tube Endonasal Robot (TACTER)</a><br>
+    <em><strong>KK Yamamoto,</strong></em>
+    <em><strong>TJ Zachem,</strong></em>
+    <em><strong>P Kheradmand,</strong></em>
+    <em><strong>P Zheng,</strong></em> 
+    <em><strong>J Abdelgadir,</strong></em> 
+    <em><strong>JL Bailey,</strong></em> 
+    <em><strong>K Pieter,</strong></em> 
+    <em><strong>PJ Codd,</strong></em> 
+    <em><strong>Y Chitalia</strong></em>
+    <br>Journal of Medical Robotics Research. 2025.
+  </figcaption>
+</figure>
 
 ## 2024
 #### Journal Papers
