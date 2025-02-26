@@ -1,0 +1,154 @@
+---
+permalink: /research/TACTER
+layout: page
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .center-text {
+            text-align: center;
+        }
+        .left-text {
+            text-align: left;
+        }
+        .justify-text {
+            text-align: justify;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .video-container video {
+            max-width: 80%;
+            height: auto;
+        }
+        .publication-authors {
+            margin-bottom: 10px;
+        }
+         .publication-authors .author-block .affiliation {
+            font-size: 0.85em; /* Adjust the font size for affiliations */
+        }
+        .publication-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        /* Styling for links */
+        .external-link {
+            display: inline-block;
+            background-color: #000;
+            padding: 5px 20px;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff; /* text color */
+        }
+        .external-link:hover {
+            background-color: #333; /* darker shade on hover */
+        }
+        .link-block {
+            margin-right: 10px; /* Adjust the margin-right to create space between link blocks */
+        }
+        /* Add this CSS for light gray background */
+        .gray-background {
+            background-color: #f0f0f0; /* light gray color */
+            padding: 10px; /* add some padding for better readability */
+            border-radius: 5px; /* optional: add border radius */
+        }
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title center-text">Tendon-Actuated Concentric Tube Endonasal Robot (TACTER)</h1>
+                    <div class="is-size-5 publication-authors center-text">
+                        <span class="author-block"><a>Kent K. Yamamoto</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Tanner J. Zachem</a><sup>1,2</sup>,</span>
+                        <span class="author-block"><a>Pejman Kheradmand</a><sup>3</sup>,</span>
+                        <span class="author-block"><a>Patrick Zheng</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Jihad Abdelgadir</a><sup>2</sup>,</span>
+                        <span class="author-block"><a>Jared Laurance Bailey</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Kaelyn Pieter</a><sup>1</sup>,</span>
+                        <span class="author-block"><a>Patrick J. Codd</a><sup>1,2</sup>,</span>
+                        <span class="author-block"><a>Yash Chitalia</a><sup>3</sup>,</span>
+                    </div>
+                    <div class="is-size-5 publication-authors center-text">
+                        <span class="author-block"><sup>1</sup><span class="affiliation">Department of Mechanical Engineering and Materials Science - Duke University - Durham,</span></span>
+                        <span class="author-block"><sup>2</sup><span class="affiliation">Department of Neurosurgery, Duke University School of Medicine, Durham,</span></span>
+                        <span class="author-block"><sup>3</sup><span class="affiliation">University of Louisville</span></span>
+                    </div>
+                    <div class="publication-links">
+                        <!-- PDF Link -->
+                        <span class="link-block">
+                            <a href="" class="external-link">
+                                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                <span>Paper</span>
+                            </a>
+                        </span>
+                        <!-- Video Link -->
+                        <span class="link-block">
+                            <a href="https://hrtlab.github.io/_pages/photos/TAG_FK 2.mp4" class="external-link">
+                                <span class="icon"><i class="fab fa-youtube"></i></span>
+                                <span>Video</span>
+                            </a>
+                        </span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Embedded HTML5 Video -->
+        <div class="video-container">
+            <video class="embed-responsive-item" controls loop>
+                <source src="https://hrtlab.github.io/_pages/photos/TAG_FK 2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Abstract -->
+        <div class="columns is-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3 left-text">Abstract</h2>
+                <div class="content justify-text">
+                    <p>
+                      Endoscopic endonasal approaches (EEA) have become more prevalent for minimally invasive skull base and sinus surgeries. However, rigid scopes and tools significantly decrease the surgeon’s ability to operate in tight anatomical spaces and avoid critical structures such as the internal carotid artery and cranial nerves. This paper proposes a novel tendon-actuated concentric tube endonasal robot (TACTER) design in which two tendon-actuated robots are concentric to each other, resulting in an outer and inner robot that can bend independently. The outer robot is a unidirectionally asymmetric notch (UAN) nickel-titanium robot, and the inner robot is a 3D-printed bidirectional robot, with a nickel-titanium bending member. In addition, the inner robot can translate axially within the outer robot, allowing the tool to traverse through structures while bending, thereby executing follow-the-leader motion. A Cosserat-rod based mechanical model is proposed that uses tendon tension of both tendon-actuated robots and the relative translation between the robots as inputs and predicts the TACTER tip position for varying input parameters. The model is validated with experiments, and a human cadaver experiment is presented to demonstrate maneuverability from the nostril to the sphenoid sinus. This work presents the first tendon-actuated concentric tube (TACT) dexterous robotic tool capable of performing follow-the-leader motion within natural nasal orifices to cover workspaces typically required for a successful EEA.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- BibTeX -->
+        <div class="section" id="BibTeX">
+            <div class="container is-max-desktop content">
+                <h2 class="title left-text">BibTeX</h2>
+                <pre class="gray-background"><code>
+
+                  
+                </code></pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <p>Page template borrowed from <a href="https://nerfies.github.io" target="_blank">Nerfies</a>.</p>
+</div>
+
+</body>
+</html>
