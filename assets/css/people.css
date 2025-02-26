@@ -70,7 +70,6 @@
   grid-row: 5 / span 1;
 }
 
-
 /* Undergraduate students */
 #row-label-2 {
   grid-row: 6 / span 1;
@@ -82,7 +81,6 @@
 .type-2-1 {
   grid-row: 7 / span 1;
 }
-
 
 /* Collaborators */
 #row-label-3 {
@@ -99,7 +97,6 @@
 .type-3-2 {
   grid-row: 10 / span 1;
 }
-
 
 /* Lab alumni */
 #alumni {
