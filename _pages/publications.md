@@ -5,6 +5,24 @@ permalink: /publications/
 author_profile: true
 analytics: true
 ---
+## 2025
+#### Journal Papers
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrtlab.github.io/_pages/photos/ExoNav2.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="" target="_blank">ExoNav II: Design of a Robotic Tool with Follow-the-Leader Motion Capability for Lateral and Ventral Spinal Cord Stimulation (SCS)</a><br>
+    <em><strong>B Moradkhani,</strong></em> 
+    <em><strong>P Kheradmand,</strong></em> 
+    <em><strong>H Jella,</strong></em> 
+    <em><strong>J Klein,</strong></em> 
+    <em><strong>A Zemmar,</strong></em> 
+    <em><strong>Y Chitalia</strong></em>
+    <br>Journal of Medical Robotics Research. 2025.
+  </figcaption>
+</figure>
+
+
+
 ## 2024
 #### Journal Papers
 <figure style="display:flex;align-items:flex-start;">
