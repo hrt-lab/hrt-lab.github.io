@@ -6,7 +6,7 @@ css: /assets/css/people.css
 js: /assets/js/people.js
 full-width: true
 ---
-<!DOCTYPE html>
+
 <div class="full-page">
   <div class="grid-container">
     <h2 class="row-label" id="row-label-0">Faculty</h2>
@@ -17,7 +17,7 @@ full-width: true
     <h2 class="row-label" id="row-label-5">Visiting Interns</h2>
     <h2 class="row-label" id="row-label-6">Collaborators</h2>
     <h2 class="row-label" id="row-label-7">Robots</h2>
-    
+
     {% for member in site.data.team_members %}
     <div class="member-info my-3 type-{{ member.type }}">
 
