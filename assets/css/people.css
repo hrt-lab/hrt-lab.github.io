@@ -82,28 +82,6 @@
   grid-row: 7 / span 1;
 }
 
-
-/* Masters students */
-<!--
-#row-label-3 {
-  grid-row: 9 / span 1;
-  grid-column: 1 / span 3;
-  font-weight: 700;
-  padding-left: 50px;
-}
-
-.type-3-1 {
-  grid-row: 10 / span 1;
-}
-
-.type-3-2 {
-  grid-row: 11 / span 1;
-}
-
-.type-3-3 {
-  grid-row: 12 / span 1;
-}
--->
 /* Undergraduate students */
 #row-label-4 {
   grid-row: 8 / span 1;
@@ -131,34 +109,6 @@
 .type-6-2 {
   grid-row: 12 / span 1;
 }
-
-/* Visiting interns */
-<!--
-#row-label-5 {
-  grid-row: 18 / span 1;
-  grid-column: 1 / span 3;
-  font-weight: 700;
-  padding-left: 50px;
-}
-
-.type-5-1 {
-  grid-row: 19 / span 1;
-}
--->
-/* Honorary lab members */
-<!--
-#row-label-6 {
-  grid-row: 20 / span 1;
-  grid-column: 1 / span 3;
-  font-weight: 700;
-  padding-left: 50px;
-}
-
-.type-6 {
-  grid-row: 21 / span 1;
-}
--->
-
 
 /* Lab alumni */
 #alumni {
