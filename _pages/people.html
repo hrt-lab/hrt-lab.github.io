@@ -12,42 +12,28 @@ full-width: true
     <h2 class="row-label" id="row-label-0">Faculty</h2>
     <h2 class="row-label" id="row-label-1">Postdoc</h2>
     <h2 class="row-label" id="row-label-2">Ph.D. Students</h2>
-<!--<h2 class="row-label" id="row-label-3">M.S. Students</h2>-->
+    <h2 class="row-label" id="row-label-3">M.S. Students</h2>
     <h2 class="row-label" id="row-label-4">Undergraduate Students</h2>
-<!--<h2 class="row-label" id="row-label-5">Visiting Interns</h2>-->
+    <h2 class="row-label" id="row-label-5">Visiting Interns</h2>
     <h2 class="row-label" id="row-label-6">Collaborators</h2>
-<!--<h2 class="row-label" id="row-label-7">Robots</h2>-->
 
     {% for member in site.data.team_members %}
+    {% if member.type != "7-1" and member.type != "7-2" %} <!-- Exclude Robots -->
     <div class="member-info my-3 type-{{ member.type }}">
 
       <img
         class="img-fluid clickable-modal-trigger"
         id="modal-trigger-image-{{ forloop.index }}"
-        src="{{
-      '/assets/img/team/' | append: member.photo | relative_url }}"
+        src="{{ '/assets/img/team/' | append: member.photo | relative_url }}"
         style="float: left" />
 
-      {% if member == site.data.team_members.first %}
-      <div
-        class="text-center clickable-modal-trigger tapo-title"
-        id="modal-trigger-text-{{ forloop.index }}">
-        <strong>{{ member.name }}</strong>
-      </div>
-      {% else %}
       <div
         class="text-center clickable-modal-trigger"
         id="modal-trigger-text-{{ forloop.index }}">
-        {% if member.type != "7-1" and member.type != "7-2" %} <!-- Non Robots-->
         <strong>{{ member.name }}</strong>
-        {% else %} <!-- Robots -->
-        <a href="{{ member.website }}" target="_blank"><strong>{{ member.name }}</strong></a>
-        {% endif %}
       </div>
-      {% endif %}
 
       <!-- Hidden modal that opens when image clicked -->
-      {% if member.type != "7-1" or member.type != "7-2" %} <!-- Exclude robots -->
       <div class="image-modal" id="modal-{{ forloop.index }}">
         <div class="image-modal-content">
           <span class="close">&times;</span>
@@ -61,26 +47,11 @@ full-width: true
           <p>{{ member.bio }}</p>
         </div>
       </div>
-      {% endif %}
     </div>
+    {% endif %}
     {% endfor %}
 
     <!-- Number of people to be displayed. Used by JavaScript -->
     <div id="modal-control">{{ site.data.team_members.size }}</div>
-  </div>
-
-  <div id="alumni">
-    <h2 class="row-label" id="alumni-label">Alumni</h2>
-    {% for alum in site.data.alumni %}
-    <div class="alumni-entries">
-      <div class="alumni-names grid-child">
-        {% if alum.website != "" %}
-        <a href="{{ alum.website }}" target="_blank">{{ alum.name }}</a>
-        {% else %} {{ alum.name }} {% endif %}
-      </div>
-      <div class="alumni-department grid-child">{{ alum.department }}</div>
-      <div class="alumni-job grid-child">{{ alum.job }}</div>
-    </div>
-    {% endfor %}
   </div>
 </div>
