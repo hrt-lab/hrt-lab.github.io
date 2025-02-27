@@ -94,40 +94,9 @@
   grid-row: 9 / span 1;
 }
 
-/* Collaborators */
-#row-label-6 {
-  grid-row: 10 / span 1;
-  grid-column: 1 / span 3;
-  font-weight: 700;
-  padding-left: 50px;
-}
 
-.type-6-1 {
-  grid-row: 11 / span 1;
-}
 
-.type-6-2 {
-  grid-row: 12 / span 1;
-}
 
-/* Lab alumni */
-#alumni {
-  padding-left: 50px;
-}
--->
-#alumni-label {
-  font-weight: 700;
-  padding-top: 50px;
-}
-
-.alumni-entries {
-  display: grid;
-  grid-template-columns: 200px 250px auto;
-  grid-template-rows: 1fr;
-  grid-template-areas: "name dept job";
-  column-gap: 20px;
-  margin-bottom: 5px;
-}
 
 .pub-grid-parent {
   display: grid;
