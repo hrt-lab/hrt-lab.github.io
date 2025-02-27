@@ -73,3 +73,31 @@
   bio: Ben is an undergraduate mechanical engineering student at the University of Louisville, pursuing a minor in economics. He has gained hands-on experience at companies like Johnson & Johnson, GE Appliances, and Textron Systems, where his passion for medical technology, robotics, and automation grew. Outside of academics, Ben enjoys exercising, camping, and woodworking.
   website: ""
   type: 4-1
+
+- name: Ajmal Zemmar
+  photo: Dr_Ajmal_Zemmar.jpg
+  info: Assistant Professor, Neurological Surgery
+  email: 
+  bio: 
+  type: 6-1
+
+- name: Scott R. Silva
+  photo: Scott_R_Silva.jpg
+  info: Assistant Professor, Radiation Oncology
+  email: 
+  bio: 
+  type: 6-1
+
+- name: Keith Sowards
+  photo: Keith_Sowards.png
+  info: Assistant Professor, Radiation Oncology
+  email: 
+  bio: 
+  type: 6-1
+
+- name: Patrick J. Codd
+  photo: Dr_Patrick_Codd.jpeg
+  info: Associate Professor, Neurosurgery
+  email: 
+  bio: 
+  type: 6-2
