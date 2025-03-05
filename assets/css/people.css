@@ -136,19 +136,6 @@
   align-self: start;
 }
 
-.alumni-names {
-  grid-area: name;
-  font-weight: bold;
-}
-
-.alumni-department {
-  grid-area: dept;
-}
-
-.alumni-job {
-  grid-area: job;
-}
-
 /* Modal related */
 
 .clickable-modal-trigger {
