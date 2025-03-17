@@ -230,14 +230,15 @@
 /* For smaller screens */
 @media (max-width: 800px) {
 
-  .full-page {
-    width: 100%;
-    padding: 0 5px;
+  .row-label,
+  .type-0-info {
+    display: none;
   }
 
-  .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust for smaller screens */
-    gap: 10px;
+  .full-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   .member-info {
@@ -246,9 +247,17 @@
     margin-bottom: 30px !important;
   }
 
+  .img-fluid {
+    margin-bottom: 10px;
+  }
+
+  #professor-name {
+    display: block !important;
+  }
+
   .image-modal-content {
     margin: 100px auto;
-    width: 90%; /* Scale modal content to fit screen */
+    width: 90%;
     padding: 15px;
   }
 
