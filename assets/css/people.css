@@ -236,9 +236,13 @@
   }
 
   .full-page {
-    display: flex;
-    flex-direction: column;
     width: 100%;
+    padding: 0 5px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust for smaller screens */
+    gap: 10px;
   }
 
   .member-info {
@@ -247,17 +251,9 @@
     margin-bottom: 30px !important;
   }
 
-  .img-fluid {
-    margin-bottom: 10px;
-  }
-
-  #professor-name {
-    display: block !important;
-  }
-
   .image-modal-content {
     margin: 100px auto;
-    width: 90%;
+    width: 90%; /* Scale modal content to fit screen */
     padding: 15px;
   }
 
