@@ -10,7 +10,7 @@ analytics: true
 <figure style="display:flex;align-items:flex-start;">
   <img align="left" src="https://hrtlab.github.io/_pages/photos/ExoNav2.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
-    <a href="https://arxiv.org/abs/2405.20509" target="_blank">ExoNav II: Design of a Robotic Tool with Follow-the-Leader Motion Capability for Lateral and Ventral Spinal Cord Stimulation (SCS)</a><br>
+    <a href="[https://arxiv.org/abs/2405.20509](https://arxiv.org/abs/2503.04603)" target="_blank">ExoNav II: Design of a Robotic Tool with Follow-the-Leader Motion Capability for Lateral and Ventral Spinal Cord Stimulation (SCS)</a><br>
     <em><strong>B Moradkhani,</strong></em> 
     <em><strong>P Kheradmand,</strong></em> 
     <em><strong>H Jella,</strong></em> 
