@@ -36,6 +36,13 @@
   website:  
   type: 2-1
 
+- name: Hadi Masoudi
+  photo: HadiMasoudi.jpeg
+  info: Ph.D. Student, Mechanical Engineering
+  email: mohammadhadi.masoudi@louisville.edu
+  bio: ""
+  type: 2-2
+
 - name: Kent K. Yamamoto (co-advised)
   photo: KentYamamoto_Photo_Cropped.jpeg
   info: Ph.D. Student (co-advised), Mechanical Engineering (Duke University)
