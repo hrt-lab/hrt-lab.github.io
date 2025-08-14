@@ -57,6 +57,14 @@
   bio: Florian completed his bachelor’s and master’s degrees in Electrical Engineering and Information Technology at the Technical University of Munich (TUM). He gained initial research experience as a research assistant at the Institute of Biological and Medical Imaging at the Helmholtz Zentrum München and during his master’s thesis in the Medical Robotics and Automation Laboratory at the Georgia Institute of Technology in Atlanta. He joined the Multi-Scale Robotics Lab at ETH Zurich in August 2021 to pursue a PhD in which he is co-advised by Prof. Yash Chtialia. Florian’s main research interests are medical robotics, machine learning, and medical imaging.
   type: 2-2
 
+- name: Holton Shults
+  photo: HoltonShults.JPG
+  info: Undergraduate Mechanical Engineering Student 
+  email: holton.shults@louisville.edu
+  bio: ""
+  website: ""
+  type: 3-1
+
 - name: Harshith Jella
   photo: Harshith.png
   info: Undergraduate Biology student on the MD/PhD Track
@@ -94,14 +102,6 @@
   info: Undergraduate Mechanical Engineering Student 
   email: ecwebs01@louisville.edu
   bio: Emma is an undergraduate mechanical engineering student at the University of Louisville, pursuing minors in Industrial Engineering and Philosophy. To her, robotics is the intersection of two of her main academic interests she wishes to grow in, mechanical engineering and programming. Her current research is working on the design and implementation of a ceiling-mounted continuum robotic arm to assist EMTs in ambulances in order to improve patient care. Outside of the lab you can find her doing Muay Thai, traveling, playing pickleball, and gardening.
-  website: ""
-  type: 4-2
-  
-- name: Holton Shults
-  photo: HoltonShults.JPG
-  info: Undergraduate Mechanical Engineering Student 
-  email: holton.shults@louisville.edu
-  bio: ""
   website: ""
   type: 4-2
   
