@@ -73,29 +73,29 @@
   website: https://www.linkedin.com/in/harshith-jella-95498b223/
   type: 4-1
 
-- name: Joey Klein 
-  photo: Joey_Klein.png
-  info: Undergraduate Mechanical Engineering Student
-  email: joseph.klein.1@louisville.edu
-  bio: Joseph is an undergraduate mechanical engineering student at the University of Louisville, completing a minor in computer science. With a passion in medicine and biotechnology, he has gained hands-on experience in both cancer cell and biomechanical research at the UofL Health Campus. Interested in the use of robotics in the medical industry, Joseph joined the HeaRT lab in the Fall of 2024. Beyond academics, he is a member of Greek life and the UofL men's club soccer team.
-  website: https://www.linkedin.com/in/joseph-klein-281382263/
-  type: 4-1
+#- name: Joey Klein 
+#  photo: Joey_Klein.png
+#  info: Undergraduate Mechanical Engineering Student
+#  email: joseph.klein.1@louisville.edu
+#  bio: Joseph is an undergraduate mechanical engineering student at the University of Louisville, completing a minor in computer science. With a passion in medicine and biotechnology, he has gained hands-on experience in both cancer cell and biomechanical research at the UofL Health Campus. Interested in the use of robotics in the medical industry, Joseph joined the HeaRT lab in the Fall of 2024. Beyond academics, he is a member of Greek life and the UofL men's club soccer team.
+#  website: https://www.linkedin.com/in/joseph-klein-281382263/
+#  type: 4-1
 
-- name: Ben Beyerle
-  photo: Ben_Beyerle.png
-  info: Undergraduate Mechanical Engineering Student
-  email: benjamin.beyerle@louisville.edu
-  bio: Ben is an undergraduate mechanical engineering student at the University of Louisville, pursuing a minor in economics. He has gained hands-on experience at companies like Johnson & Johnson, GE Appliances, and Textron Systems, where his passion for medical technology, robotics, and automation grew. Outside of academics, Ben enjoys exercising, camping, and woodworking.
-  website: ""
-  type: 4-1
+#- name: Ben Beyerle
+#  photo: Ben_Beyerle.png
+#  info: Undergraduate Mechanical Engineering Student
+#  email: benjamin.beyerle@louisville.edu
+#  bio: Ben is an undergraduate mechanical engineering student at the University of Louisville, pursuing a minor in economics. He has gained hands-on experience at companies like Johnson & Johnson, GE Appliances, and Textron Systems, where his passion for medical technology, robotics, and automation grew. Outside of academics, Ben enjoys exercising, camping, and woodworking.
+#  website: ""
+#  type: 4-1
 
-- name: Lux Snyder
-  photo: Lux.jpg
-  info: Undergraduate Mechanical Engineering Student 
-  email: klsnyd05@louisville.edu
-  bio: Lux is an undergraduate mechanical engineering student at the University of Louisville. Her current research focuses on the design of a ceiling-mounted continuum robotic arm to assist EMTs in ambulances, aiming to improve patient care through adaptable robotics in dynamic environments. She is currently a NASA Pathways intern at the Marshall Space Flight Center, where she works on thrust vector control systems and robotics for advanced propulsion technologies. Outside of work, you’ll likely find Lux spiking volleyballs, kickboxing, or hiking up a trail she swore was definitely not that steep. 
-  website: ""
-  type: 4-2
+#- name: Lux Snyder
+#  photo: Lux.jpg
+#  info: Undergraduate Mechanical Engineering Student 
+#  email: klsnyd05@louisville.edu
+#  bio: Lux is an undergraduate mechanical engineering student at the University of Louisville. Her current research focuses on the design of a ceiling-mounted continuum robotic arm to assist EMTs in ambulances, aiming to improve patient care through adaptable robotics in dynamic environments. She is currently a NASA Pathways intern at the Marshall Space Flight Center, where she works on thrust vector control systems and robotics for advanced propulsion technologies. Outside of work, you’ll likely find Lux spiking volleyballs, kickboxing, or hiking up a trail she swore was definitely not that steep. 
+#  website: ""
+#  type: 4-1
 
 - name: Emma Webster
   photo: Emma.jpg
@@ -103,8 +103,16 @@
   email: ecwebs01@louisville.edu
   bio: Emma is an undergraduate mechanical engineering student at the University of Louisville, pursuing minors in Industrial Engineering and Philosophy. To her, robotics is the intersection of two of her main academic interests she wishes to grow in, mechanical engineering and programming. Her current research is working on the design and implementation of a ceiling-mounted continuum robotic arm to assist EMTs in ambulances in order to improve patient care. Outside of the lab you can find her doing Muay Thai, traveling, playing pickleball, and gardening.
   website: ""
-  type: 4-2
-  
+  type: 4-1
+
+- name: Greta Sandman
+  photo: GretaSandman.jpeg
+  info: ""
+  email: glsand03@louisville.edu
+  bio: ""
+  website: ""
+  type: 4-1
+
 - name: Ajmal Zemmar
   photo: Dr_Ajmal_Zemmar.jpg
   info: Assistant Professor, Neurological Surgery
