@@ -1,14 +1,9 @@
-- name: Alexis Hao
-  department: BS, CS 2024
-  job: MS student, CMU
+- name: Joey Klein 
+  department: BS, ME 2025
+  job: Undergrad student
   website: ""
   
-- name: Mahika Goel
-  department: BS/MEng, MechE 2024
-  job: Controls and Automation Engineer, SpaceX
-  website: https://www.linkedin.com/in/mahika-goel-2bbb201a5/
-  
-- name: Diego Virtue
-  department: BS, CS 2024
-  job: Software Engineer, Apple
-  website: https://www.linkedin.com/in/diego-virtue/
+- name: Ben Beyerle
+  department: BS, ME 2025
+  job: Undergrad student
+  website: ""
