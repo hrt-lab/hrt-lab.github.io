@@ -13,9 +13,8 @@ permalink: /outreach/
     St. Joseph Children's Home Robot Day 2025
     <div class="pdf-container">
       <iframe 
-          id="pdf-frame"
-          src="{{ '/assets/pdfs/Robot_Day_2025_.pdf' | relative_url }}" 
-          frameborder="0">
+        src="{{ '/assets/pdfs/Robot_Day_2025_.pdf' | relative_url }}" 
+        frameborder="0">
         Your browser does not support PDFs. 
         <a href="{{ '/assets/pdfs/Robot_Day_2025_.pdf' | relative_url }}" target="_blank">
           Download PDF
@@ -26,37 +25,21 @@ permalink: /outreach/
 </ul>
 
 <style>
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+/* Make iframe responsive and fill viewport below header */
+.pdf-container {
+  width: 100%;
+  height: calc(100vh - 200px); /* Adjust 200px if you have header + h1/p height */
+  display: flex;
+}
+
+.pdf-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+@media (max-width: 768px) {
   .pdf-container {
-    width: 100%;
-    position: relative;
+    height: calc(100vh - 150px); /* Less offset for smaller screens */
   }
-  .pdf-container iframe {
-    width: 100%;
-    border: none;
-    display: block;
-  }
+}
 </style>
-
-<script>
-  function resizePdf() {
-    const iframe = document.getElementById('pdf-frame');
-    if(!iframe) return;
-
-    // Get the distance from the top of the page to the iframe
-    const rect = iframe.getBoundingClientRect();
-    const topOffset = rect.top + window.scrollY;
-
-    // Set iframe height to fill remaining viewport
-    const height = window.innerHeight - topOffset - 20; // 20px padding
-    iframe.style.height = height + 'px';
-  }
-
-  window.addEventListener('load', resizePdf);
-  window.addEventListener('resize', resizePdf);
-  window.addEventListener('orientationchange', resizePdf);
-</script>
