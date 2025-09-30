@@ -23,9 +23,9 @@ navbar-links:
   Home: "/"
   Research: "research"
   Publications: "publications"
+  Outreach: "outreach"
   News : "news"
   People: "people"
-  Outreach: "outreach"
 ################
 # --- Logo --- #
 ################
