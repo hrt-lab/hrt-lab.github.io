@@ -127,12 +127,19 @@
   bio: 
   type: 6-1
 
+- name: Arno Sungarian
+  photo: ArnoSungarian.jpg
+  info: 
+  email: 
+  bio: 
+  type: 6-1
+
 - name: Keith Sowards
   photo: Keith_Sowards.png
   info: Assistant Professor, Radiation Oncology
   email: 
   bio: 
-  type: 6-1
+  type: 6-2
 
 - name: Patrick J. Codd
   photo: Dr_Patrick_Codd.jpeg
