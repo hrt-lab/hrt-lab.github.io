@@ -113,37 +113,65 @@
   website: ""
   type: 4-1
 
-- name: Ajmal Zemmar
-  photo: Dr_Ajmal_Zemmar.jpg
-  info: Assistant Professor, Neurological Surgery
+- name: Nicholas Ahn
+  photo: NicholasAhn.png
+  info: UofL Physicians, Orthopedics
   email: 
   bio: 
   type: 6-1
-
-- name: Scott R. Silva
-  photo: Scott_R_Silva.jpg
-  info: Assistant Professor, Radiation Oncology
+  
+- name: Diandra N. Ayala-Peacock
+  photo: Peacock.png
+  info: Associate Professor of Radiation Oncology at Duke University. 
   email: 
   bio: 
   type: 6-1
-
-- name: Arno Sungarian
-  photo: ArnoSungarian.jpg
-  info: Assistant Professor, Neurological Surgery
-  email: 
-  bio: 
-  type: 6-1
-
-- name: Keith Sowards
-  photo: Keith_Sowards.png
-  info: Assistant Professor, Radiation Oncology
-  email: 
-  bio: 
-  type: 6-2
 
 - name: Patrick J. Codd
   photo: Dr_Patrick_Codd.jpeg
   info: Associate Professor, Neurosurgery
   email: 
   bio: 
+  type: 6-1
+  
+- name: Joseph Neimat
+  photo: Neimat.jpg
+  info: Chairman of Department of Neurological Surgery, Professor of Neurosurgery
+  email: 
+  bio: 
   type: 6-2
+  
+- name: Julie Ann Raffi
+  photo: JulieAnnRaffi.png
+  info: Medical Instructor in the Department of Radiation Oncology at Duke University
+  email: 
+  bio: 
+  type: 6-2
+  
+- name: Scott R. Silva
+  photo: Scott_R_Silva.jpg
+  info: Assistant Professor, Radiation Oncology
+  email: 
+  bio: 
+  type: 6-2
+
+- name: Keith Sowards
+  photo: Keith_Sowards.png
+  info: Assistant Professor, Radiation Oncology
+  email: 
+  bio: 
+  type: 6-3
+  
+- name: Arno Sungarian
+  photo: ArnoSungarian.jpg
+  info: Assistant Professor, Neurological Surgery
+  email: 
+  bio: 
+  type: 6-3
+
+- name: Ajmal Zemmar
+  photo: Dr_Ajmal_Zemmar.jpg
+  info: Assistant Professor, Neurological Surgery
+  email: 
+  bio: 
+  type: 6-3
