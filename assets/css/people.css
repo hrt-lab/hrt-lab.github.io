@@ -142,6 +142,10 @@
   grid-row: 18 / span 1;
 }
 
+.type-7-2 {
+  grid-row: 19 / span 1;
+}
+
 /* Lab alumni */
 #alumni {
   padding-left: 50px;
