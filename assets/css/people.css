@@ -30,7 +30,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-rows: 50px 1fr 50px 1fr 50px 1fr 1fr 50px 1fr 50px 1fr 1fr 50px 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 50px 1fr 50px 1fr 1fr 50px 1fr 50px 1fr 1fr 50px 1fr 1fr 1fr 50px 1fr;
   grid-template-columns: repeat(3, 1fr);
   /* Each person gets his/her column */
 }
@@ -141,14 +141,6 @@
 
 .type-7-1 {
   grid-row: 18 / span 1;
-}
-
-.type-7-2 {
-  grid-row: 19 / span 1;
-}
-
-.type-7-3 {
-  grid-row: 20 / span 1;
 }
 
 /* Lab alumni */
