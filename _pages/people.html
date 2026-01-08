@@ -34,17 +34,19 @@ full-width: true
       </div>
       
       <!-- Hidden modal that opens when image clicked -->
-      {% if member.type != "7-1" or member.type != "7-2" %} <!-- Exclude robots -->
-      <div class="image-modal" id="modal-{{ forloop.index }}">
+      {% if member.type != "7-1" or member.type != "7-2" %} <div class="image-modal" id="modal-{{ forloop.index }}">
         <div class="image-modal-content">
           <span class="close">&times;</span>
           {{ member.info }}<br />
-          Email: {{ member.email }}<br />
-
+      
+          {% unless member.type contains "7" %}
+            Email: {{ member.email }}<br />
+          {% endunless %}
+      
           {% if member.website != "" %}
-          <a href="{{ member.website }}" target="_blank">{{ member.website }}</a>
+            <a href="{{ member.website }}" target="_blank">{{ member.website }}</a>
           {% endif %}
-
+      
           <p>{{ member.bio }}</p>
         </div>
       </div>
