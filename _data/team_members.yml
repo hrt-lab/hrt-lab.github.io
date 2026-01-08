@@ -184,9 +184,44 @@
   bio: 
   type: 6-3
 
-- name: pej
-  photo: PejmanPic.jpg
+- name: Kati
+  photo: PejmanKati.jpg
   info: 
   email: 
   bio: 
   type: 7-1
+
+- name: Kiwi
+  photo: PejmanKiwi.jpg
+  info: 
+  email: 
+  bio: 
+  type: 7-1
+
+- name: Wicket (left) and Obi (right)
+  photo: YashWicketLObiR.jpg
+  info: 
+  email: 
+  bio: 
+  type: 7-1
+
+- name: Eddie
+  photo: SilvaEddie.jpg
+  info: 
+  email: 
+  bio: 
+  type: 7-2
+
+- name: Daisy
+  photo: SilvaDaisy.jpg
+  info: 
+  email: 
+  bio: 
+  type: 7-2
+  
+- name: Mars
+  photo: LawsonMars.jpg
+  info: 
+  email: 
+  bio: 
+  type: 7-2
