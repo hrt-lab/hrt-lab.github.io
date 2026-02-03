@@ -72,6 +72,7 @@ analytics: true
   </figcaption>
 </figure>
 
+<br>
 
 ## 2025
 #### Journal Papers
@@ -105,6 +106,8 @@ analytics: true
     <br>Journal of Medical Robotics Research. 2025.
   </figcaption>
 </figure>
+
+<br>
 
 ## 2024
 #### Journal Papers
