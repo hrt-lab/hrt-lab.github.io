@@ -8,7 +8,7 @@ analytics: true
 ## 2026
 #### Journal Papers
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrt-lab.github.io/_pages/photos/ExoNav2.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrt-lab.github.io/assets/img/research/OncoReach.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2601.13529" target="_blank">The OncoReach Stylet for Brachytherapy: Design Evaluation and Pilot Study</a><br>
     <em><strong>P Kheradmand,</strong></em>
@@ -28,7 +28,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrt-lab.github.io/_pages/photos/ExoNav2.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrt-lab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2601.13177" target="_blank">Helical Tendon-Driven Continuum Robot with Programmable Follow-the-Leader Operation</a><br>
     <em><strong>B Moradkhani,</strong></em> 
@@ -43,7 +43,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrt-lab.github.io/_pages/photos/ExoNav2.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrt-lab.github.io/assets/img/research/concentric-tube-tendon-actuated.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2510.23954" target="_blank">A Comprehensive General Model of Tendon-Actuated Concentric Tube Robots with Multiple Tubes and Tendons</a><br>
     <em><strong>P Kheradmand,</strong></em>
@@ -60,7 +60,7 @@ analytics: true
 
 #### Conference Papers
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrt-lab.github.io/_pages/photos/FBG_Project.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrt-lab.github.io/_pages/photos/ISMRNASA.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2602.01448" target="_blank">Towards a Novel Wearable Robotic Vest for Hemorrhage Suppression</a><br>
     <em><strong>H Jella,</strong></em> 
