@@ -1,3 +1,10 @@
+- title: "Modeling Concentric-tube Tendon-actuated Robots"
+  link: "https://hrt-lab.github.io/research/ConcentricTubeTendonDriven"
+  link_text: "Project Website"
+  ytid: ""
+  video_url: "https://hrt-lab.github.io/assets/img/research/concentric-tube-tendon-actuated.gif"
+  description: "NA"
+  
 - title: "OncoReach: Design Evaluation and Pilot Study"
   link: "https://hrt-lab.github.io/research/OncoReach"
   link_text: "Project Website"
@@ -45,11 +52,4 @@
   link_text: "Project Website"
   ytid: ""
   video_url: "https://hrt-lab.github.io/_pages/photos/FBG_Stiffness_Sensor_Thumbnail.gif"
-  description: "NA"
-  
-- title: "Concentric-tube Tendon-actuated Robots"
-  link: "https://hrt-lab.github.io/research/ConcentricTubeTendonDriven"
-  link_text: "Project Website"
-  ytid: ""
-  video_url: "https://hrt-lab.github.io/assets/img/research/concentric-tube-tendon-actuated.gif"
   description: "NA"
