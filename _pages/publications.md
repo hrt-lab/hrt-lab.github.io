@@ -5,6 +5,74 @@ permalink: /publications/
 author_profile: true
 analytics: true
 ---
+## 2026
+#### Journal Papers
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrt-lab.github.io/_pages/photos/ExoNav2.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.48550/arXiv.2601.13529" target="_blank">The OncoReach Stylet for Brachytherapy: Design Evaluation and Pilot Study</a><br>
+    <em><strong>P Kheradmand,</strong></em>
+    <em><strong>KK Yamamoto,</strong></em>  
+    <em><strong>E Webster</strong></em>
+    <em><strong>K Sowards,</strong></em>
+    <em><strong>G Hatheway,</strong></em>
+    <em><strong>KL Jackson,</strong></em>
+    <em><strong>S Zani Jr.,</strong></em>
+    <em><strong>JA Raffi,</strong></em> 
+    <em><strong>DN Ayala-Peacock,</strong></em> 
+    <em><strong>SR Silva,</strong></em> 
+    <em><strong>JD Bertram,</strong></em>
+    <em><strong>Y Chitalia</strong></em>    
+    <br>Journal of Medical Robotics Research. 2026 (accepted).
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrt-lab.github.io/_pages/photos/ExoNav2.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.48550/arXiv.2601.13177" target="_blank">Helical Tendon-Driven Continuum Robot with Programmable Follow-the-Leader Operation</a><br>
+    <em><strong>B Moradkhani,</strong></em> 
+    <em><strong>R Sankaranarayanan,</strong></em>
+    <em><strong>P Kheradmand,</strong></em>
+    <em><strong>H Jella,</strong></em> 
+    <em><strong>N Ahn,</strong></em> 
+    <em><strong>A Zemmar,</strong></em>
+    <em><strong>Y Chitalia</strong></em> 
+    <br>IEEE Robotics and Automation Letters. 2026 (under review).
+  </figcaption>
+</figure>
+
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrt-lab.github.io/_pages/photos/ExoNav2.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.48550/arXiv.2510.23954" target="_blank">A Comprehensive General Model of Tendon-Actuated Concentric Tube Robots with Multiple Tubes and Tendons</a><br>
+    <em><strong>P Kheradmand,</strong></em>
+    <em><strong>B Moradkhani,</strong></em> 
+    <em><strong>R Sankaranarayanan,</strong></em>
+    <em><strong>KK Yamamoto,</strong></em>    
+    <em><strong>TJ Zachem,</strong></em> 
+    <em><strong>PJ Codd,</strong></em> 
+    <em><strong>Y Chitalia,</strong></em>
+    <em><strong>PE Dupont,</strong></em> 
+    <br>Transactions on Medical Robotics and Bionics (T-MRB). 2026 (under review).
+  </figcaption>
+</figure>
+
+#### Conference Papers
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrt-lab.github.io/_pages/photos/FBG_Project.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://doi.org/10.48550/arXiv.2602.01448" target="_blank">Towards a Novel Wearable Robotic Vest for Hemorrhage Suppression</a><br>
+    <em><strong>H Jella,</strong></em> 
+    <em><strong>P Kheradmand,</strong></em> 
+    <em><strong>J Klein,</strong></em>     
+    <em><strong>B Moradkhani,</strong></em> 
+    <em><strong>Y Chitalia</strong></em>
+    <br>2026 International Symposium on Medical Robotics (ISMR). 2026 (accepted).
+  </figcaption>
+</figure>
+
+
 ## 2025
 #### Journal Papers
 <figure style="display:flex;align-items:flex-start;">
