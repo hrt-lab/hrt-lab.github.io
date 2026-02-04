@@ -72,6 +72,19 @@ analytics: true
   </figcaption>
 </figure>
 
+<figure style="display:flex;align-items:flex-start;">
+  <img align="left" src="https://hrt-lab.github.io/assets/img/research/InstrumentTray.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <figcaption style="margin-top:0;margin-bottom:0;">
+    <a href="https://www.arxiv.org/abs/2602.01679" target="_blank">Towards Autonomous Instrument Tray Assembly for Sterile Processing Applications</a><br>
+    <em><strong>R Sankaranarayanan,</strong></em> 
+    <em><strong>P Stuart,</strong></em> 
+    <em><strong>N Ahn,</strong></em>     
+    <em><strong>A Sungarian,</strong></em> 
+    <em><strong>Y Chitalia</strong></em>
+    <br>2026 International Symposium on Medical Robotics (ISMR). 2026 (accepted).
+  </figcaption>
+</figure>
+
 <br>
 
 ## 2025
