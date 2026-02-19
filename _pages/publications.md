@@ -28,7 +28,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrt-lab.github.io/_pages/photos/Tempgif.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrt-lab.github.io/assets/img/research/ProgrammableFollowtheLeader.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://doi.org/10.48550/arXiv.2601.13177" target="_blank">Helical Tendon-Driven Continuum Robot with Programmable Follow-the-Leader Operation</a><br>
     <em><strong>B Moradkhani,</strong></em> 
