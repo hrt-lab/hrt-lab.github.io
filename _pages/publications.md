@@ -73,7 +73,7 @@ analytics: true
 </figure>
 
 <figure style="display:flex;align-items:flex-start;">
-  <img align="left" src="https://hrt-lab.github.io/assets/img/research/InstrumentTray.gif" alt="photo" style="margin-right: 10px; width: 150px;">
+  <img align="left" src="https://hrt-lab.github.io/assets/img/research/AIPRISM.gif" alt="photo" style="margin-right: 10px; width: 150px;">
   <figcaption style="margin-top:0;margin-bottom:0;">
     <a href="https://www.arxiv.org/abs/2602.01679" target="_blank">Towards Autonomous Instrument Tray Assembly for Sterile Processing Applications</a><br>
     <em><strong>R Sankaranarayanan,</strong></em> 
