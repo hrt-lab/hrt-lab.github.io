@@ -28,14 +28,6 @@
   website: https://sites.google.com/view/pejmankheradmand/home 
   type: 2-1
 
-- name: Rawan Ahmed
-  photo: Rawan_Ahmed.png
-  info: Ph.D. Student, Mechanical Engineering
-  email: rawan.rawan@louisville.edu
-  bio: Rawan Ahmed is graduating in the fall of 2024 with a degree in bioengineering from the University of Louisville. Her co-op experiences in hospitals, particularly in the operating room, have fueled her interest in the development and applications of robotic surgery.
-  website:  
-  type: 2-1
-
 - name: Hadi Masoudi
   photo: HadiMasoudi.jpeg
   info: Ph.D. Student, Mechanical Engineering
@@ -57,13 +49,13 @@
   bio: Florian completed his bachelor’s and master’s degrees in Electrical Engineering and Information Technology at the Technical University of Munich (TUM). He gained initial research experience as a research assistant at the Institute of Biological and Medical Imaging at the Helmholtz Zentrum München and during his master’s thesis in the Medical Robotics and Automation Laboratory at the Georgia Institute of Technology in Atlanta. He joined the Multi-Scale Robotics Lab at ETH Zurich in August 2021 to pursue a PhD in which he is co-advised by Prof. Yash Chtialia. Florian’s main research interests are medical robotics, machine learning, and medical imaging.
   type: 2-2
 
-- name: Holton Shults
-  photo: HoltonShults.JPG
-  info: Undergraduate Mechanical Engineering Student 
-  email: holton.shults@louisville.edu
-  bio: ""
-  website: ""
-  type: 3-1
+- name: Rawan Ahmed
+  photo: Rawan_Ahmed.png
+  info: Ph.D. Student, Mechanical Engineering
+  email: rawan.rawan@louisville.edu
+  bio: Rawan Ahmed is graduating in the fall of 2024 with a degree in bioengineering from the University of Louisville. Her co-op experiences in hospitals, particularly in the operating room, have fueled her interest in the development and applications of robotic surgery.
+  website:  
+  type: 2-1
 
 - name: Harshith Jella
   photo: Harshith.png
