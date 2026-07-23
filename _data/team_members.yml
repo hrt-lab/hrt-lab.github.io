@@ -113,6 +113,14 @@
   website: ""
   type: 2-1
 
+- name: Shreyas S. Ghare
+  photo: Shreyas.jpg
+  info: "Undergraduate Biomedical Engineering Student"
+  email: sghare@purdue.edu
+  bio: "Shreyas is an undergraduate student at the Weldon School of Biomedical Engineering at Purdue University, also pursuing a minor in Biotechnology. Particularly, he is interested in the specialization of Bioinstrumentation to develop medical wearables as well as other smart medical technologies. In his free time, he enjoys spending time with friends, playing badminton, and practicing the guitar."
+  website: "https://www.linkedin.com/in/shreyasghare"
+  type: 2-1
+
 - name: Nicholas Ahn
   photo: NicholasAhn.png
   info: UofL Physicians, Orthopedics
